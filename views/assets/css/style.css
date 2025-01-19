@@ -1,0 +1,114 @@
+:root,
+[data-bs-theme="light"] {
+  --bs-body-font-size: 0.9rem;
+  --bs-primary: #0d6efd;
+  --bs-primary-dark: #1795d7;
+  --bs-primary-light: #4fb6ec;
+}
+
+.hr-bold {
+  border-width: 5px;
+}
+
+.lightblue {
+  color: var(--bs-primary-light);
+}
+
+.bg-lightblue {
+  background-color: var(--bs-primary-light);
+}
+
+.bg-lightblue:hover {
+  background-color: var(--bs-primary-light) !important;
+}
+
+.darkblue {
+  color: var(--bs-primary-light);
+}
+
+.bg-darkblue {
+  background-color: var(--bs-primary-light);
+}
+
+.bi-arrow-right {
+  -webkit-text-stroke: 1px;
+}
+
+/* NavBar start */
+
+.nav-link {
+  color: #4b4b4b;
+  background-color: none;
+  background: none;
+}
+
+.nav-link.active {
+  background-color: var(--bs-primary);
+  background: var(--bs-primary);
+}
+
+/* NavBar end */
+
+/* Footer start */
+
+.contactUs {
+  height: 400px;
+}
+
+.gllocation {
+  height: 250px;
+}
+
+/* Footer end */
+
+/* General start */
+
+.input-group-text {
+  background-color: var(--bs-primary-light);
+  background: var(--bs-primary-light);
+}
+
+.slider-card {
+  height: 400px;
+}
+
+.miniFavourite {
+  height: 200px;
+}
+
+.banner {
+  height: 200px;
+}
+/* General end */
+
+/* index.html start */
+
+#main-container {
+  background-image: url("/assets/img/airplane.png");
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: var(--bs-primary-dark) !important;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  margin: 0px 10px;
+}
+
+/* index.html end */
+
+/* index.html start */
+
+#main-container {
+  background-image: url("/assets/img/airplane.png");
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: var(--bs-primary-dark) !important;
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+  margin: 0px 10px;
+}
+
+/* index.html end */

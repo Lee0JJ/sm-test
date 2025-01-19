@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css" />
+    <link rel="stylesheet" href="/css/bootstrap-icons/bootstrap-icons.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css"
+    />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <style>
+      #main-container {
+        background-image: url("/img/airplane.jpg");
+        background-repeat: no-repeat;
+        background-clip: border-box;
+        background-size: 100% 100%;
+        height: 500px;
+      }
+    </style>
+
+    <title>Hello, the world!</title>
+  </head>
+  <body>
+    <div id="navbar-container"></div>
+    <!-- poster -->
+    <section id="main-container" class="w-auto py-5 text-center ms-0 me-0">
+      <div class="row h-100 py-lg-5">
+        <div class="col-lg-6 my-auto col-md-8">
+          <h1 class="fw-bold text-white">
+            Your Prestigious <br />
+            Holiday Maker
+          </h1>
+        </div>
+      </div>
+      <div class="input-group shadow-sm w-50 mx-auto">
+        <div class="form-floating w-auto">
+          <input
+            type="text"
+            class="form-control"
+            id="searchDestination"
+            placeholder="Japan"
+          />
+          <label for="searchDestination" class="text-muted"
+            ><i class="bi bi-geo-alt-fill lightblue ms-3 me-3"></i
+            >Destination</label
+          >
+        </div>
+        <div class="form-floating date w-auto" id="datepicker">
+          <input
+            type="text"
+            class="form-control"
+            id="searchDate"
+            placeholder="01/01/2025"
+          />
+          <label for="searchDate" class="text-muted"
+            ><i class="bi bi-calendar3-week-fill lightblue ms-3 me-3"></i
+            >Date</label
+          >
+          <span class="input-group-append mt-5"></span>
+        </div>
+        <span class="input-group-text">
+          <button type="button" class="btn text-white">SEARCH</button>
+        </span>
+      </div>
+    </section>
+
+    <!-- slider -->
+    <section id="slider-container">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container my-5">
+              <!-- Row of cards -->
+              <div class="row gx-5">
+                <!-- Card 1 -->
+
+                <div class="col-md-4 card bg-blue text-white w-25 p-0 mx-auto">
+                  <div class="card-img slider-card bg-lightblue"></div>
+                  <div
+                    class="card-img-overlay d-flex flex-column mx-auto justify-content-center bg-blue ps-4 pe-4"
+                  >
+                    <h3 class="card-title">
+                      <strong>
+                        Trending<br />
+                        Destinations,<br />
+                        Endless<br />
+                        Discoveries<br />
+                      </strong>
+                    </h3>
+                    <button class="btn btn-light w-75 mt-4 darkblue">
+                      Find Out More
+                    </button>
+                  </div>
+                </div>
+
+                <div class="col-md-4 card bg-blue text-white w-25 p-0 mx-auto">
+                  <img
+                    src="/img/airplane.jpg"
+                    class="card-img slider-card"
+                    alt="..."
+                  />
+                  <div
+                    class="card-img-overlay d-flex flex-column mx-auto justify-content-end"
+                  >
+                    <h5 class="card-title mb-0">
+                      <strong>Autumn in Tokyo</strong>
+                    </h5>
+                    <p class="card-text mb-0">
+                      7 Days<i class="bi bi-calendar-fill ps-1"></i> 6 Nights<i
+                        class="bi bi-moon-fill ps-1"
+                      ></i>
+                    </p>
+                    <p class="card-text mb-0">from</p>
+                    <h5 class="card-title d-flex justify-content-between">
+                      <strong>RM 3899.00</strong>
+                      <strong
+                        ><i class="bi bi-arrow-right align-end"></i
+                      ></strong>
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="col-md-4 card bg-blue text-white w-25 p-0 mx-auto">
+                  <img
+                    src="/img/airplane.jpg"
+                    class="card-img slider-card"
+                    alt="..."
+                  />
+                  <div
+                    class="card-img-overlay d-flex flex-column mx-auto justify-content-end"
+                  >
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">Last updated 3 mins ago</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container my-5">
+              <!-- Row of cards -->
+              <div class="row gx-5">
+                <!-- Card 1 -->
+
+                <div class="col-md-4 card bg-blue text-white w-25 p-0 mx-auto">
+                  <img
+                    src="/img/airplane.jpg"
+                    class="card-img slider-card"
+                    alt="..."
+                  />
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">Last updated 3 mins ago</p>
+                  </div>
+                </div>
+
+                <div class="col-md-4 card bg-blue text-white w-25 p-0 mx-auto">
+                  <img
+                    src="/img/airplane.jpg"
+                    class="card-img slider-card"
+                    alt="..."
+                  />
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">Last updated 3 mins ago</p>
+                  </div>
+                </div>
+
+                <div class="col-md-4 card bg-blue text-white w-25 p-0 mx-auto">
+                  <img
+                    src="/img/airplane.jpg"
+                    class="card-img slider-card"
+                    alt="..."
+                  />
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">Last updated 3 mins ago</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container my-5">
+              <!-- Row of cards -->
+              <div class="row gx-5">
+                <!-- Card 1 -->
+
+                <div class="col-md-4 card bg-blue text-white w-25 p-0 mx-auto">
+                  <img
+                    src="/img/airplane.jpg"
+                    class="card-img slider-card"
+                    alt="..."
+                  />
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">Last updated 3 mins ago</p>
+                  </div>
+                </div>
+
+                <div class="col-md-4 card bg-blue text-white w-25 p-0 mx-auto">
+                  <img
+                    src="/img/airplane.jpg"
+                    class="card-img slider-card"
+                    alt="..."
+                  />
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">Last updated 3 mins ago</p>
+                  </div>
+                </div>
+
+                <div class="col-md-4 card bg-blue text-white w-25 p-0 mx-auto">
+                  <img
+                    src="/img/airplane.jpg"
+                    class="card-img slider-card"
+                    alt="..."
+                  />
+                  <div class="card-img-overlay">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">
+                      This is a wider card with supporting text below as a
+                      natural lead-in to additional content. This content is a
+                      little bit longer.
+                    </p>
+                    <p class="card-text">Last updated 3 mins ago</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <section id="favourites-container">
+      <div class="container ps-5 pe-5">
+        <div class="row row-cols-2 justify-content-center">
+          <div class="col-4 card bg-blue text-white p-0 me-3">
+            <div class="card-img slider-card bg-lightblue h-100"></div>
+            <div
+              class="card-img-overlay d-flex flex-column mx-auto justify-content-center bg-blue ps-4 pe-4"
+            >
+              <h3 class="card-title">
+                <strong>
+                  Trending<br />
+                  Destinations,<br />
+                  Endless<br />
+                  Discoveries<br />
+                </strong>
+              </h3>
+              <button class="btn btn-light w-75 mt-4 darkblue">
+                Find Out More
+              </button>
+            </div>
+          </div>
+          <div class="col-6">
+            <div class="row row-cols-2">
+              <div class="col-5 card bg-blue text-white p-0 mx-4 miniFavourite">
+                <div class="card-img bg-lightblue h-100"></div>
+                <div
+                  class="card-img-overlay d-flex flex-column mx-auto justify-content-center bg-blue ps-4 pe-4"
+                >
+                  <button class="btn btn-light w-75 mt-4 darkblue">
+                    Find Out More
+                  </button>
+                  <h3 class="card-title align-items-center">
+                    <strong> Vietnam </strong>
+                  </h3>
+                </div>
+              </div>
+              <div class="col-5 card bg-blue text-white p-0 mx-2 miniFavourite">
+                <div class="card-img bg-lightblue h-100"></div>
+                <div
+                  class="card-img-overlay d-flex flex-column mx-auto justify-content-center bg-blue ps-4 pe-4"
+                >
+                  <button class="btn btn-light w-75 mt-4 darkblue">
+                    Find Out More
+                  </button>
+                  <h3 class="card-title align-items-center">
+                    <strong> Vietnam </strong>
+                  </h3>
+                </div>
+              </div>
+              <div
+                class="col-11 card bg-blue text-white p-0 mx-auto miniFavourite mt-4"
+              >
+                <div class="card-img bg-lightblue h-100"></div>
+                <div
+                  class="card-img-overlay d-flex flex-column mx-auto justify-content-center bg-blue ps-4 pe-4"
+                >
+                  <button class="btn btn-light w-75 mt-4 darkblue">
+                    Find Out More
+                  </button>
+                  <h3 class="card-title align-items-center">
+                    <strong> Vietnam </strong>
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="banner-container">
+      <div class="card mt-4 text-white d-flex rounded-0 banner">
+        <img
+          src="/img/airplane.jpg"
+          class="card-img img-fluid rounded-0 banner"
+          alt="..."
+        />
+        <p class="card-img-overlay mx-auto">
+          GL Travel based in Klang Valley, specializes in arranging <br />
+          and customizing group and personal tours. <br />
+          Whether you’re planning a family getaway or a solo adventure, <br />
+          we tailor each trip to suit your needs. <br />
+        </p>
+      </div>
+    </section>
+
+    <footer id="footer"></footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="/js/jquery/jquery.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
+    <script src="/js/popper/popper.min.js"></script>
+    <script src="/js/bootstrap/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+    <script src="/js/index.js"></script>
+
+    <script type="text/javascript">
+      $("#navbar-container").addClass("position-absolute");
+      $("#navbar-container").addClass("w-100");
+
+      $(function () {
+        $("#datepicker").datepicker();
+      });
+    </script>
+  </body>
+</html>
