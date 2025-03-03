@@ -467,11 +467,10 @@
     <script src="/js/index.js"></script>
 
     <script type="text/javascript">
-      window.onload = function () {
+      //window.onload = function () {
         const path = window.location.pathname; // Gets the full path like '/destination/Japan'
         const lastSegment = path.split('/').pop(); // Splits by '/' and gets the last part
         $("#countryName").text(lastSegment);
-        console.log(lastSegment);
         // Fetch the external destinationCard.html
         $("#list-destination").empty();
         fetch("/components/destinationCard.html")
@@ -552,7 +551,7 @@
               listDestinationElement.appendChild(card);
             });
           }
-      };
+      //};  
     </script>
   </body>
 </html>

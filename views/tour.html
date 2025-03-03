@@ -29,6 +29,31 @@
       #rightbar {
         height: fit-content;
       }
+
+      #tourImage {
+        height: 200px;
+      }
+
+      .toggle {
+        border: solid 1px var(--bs-primary-light);
+        color: var(--bs-primary-light);
+        background-color: none;
+        background: none;
+      }
+
+      .toggle:hover {
+        background-color: var(--bs-primary-light);
+        background: var(--bs-primary-light);
+        border: var(--bs-primary-light);
+        color: white;
+      }
+
+      .toggle.active {
+        background-color: var(--bs-primary-light);
+        background: var(--bs-primary-light);
+        border: var(--bs-primary-light);
+        color: white;
+      }
     </style>
 
     <title>Hello, the world!</title>
@@ -44,629 +69,249 @@
           <h1 id="countryName" class="fw-bold text-white">Not Found</h1>
         </div>
       </div>
-      <div class="input-group shadow-sm w-50 mx-auto">
-        <div class="form-floating w-auto">
-          <input
-            type="text"
-            class="form-control"
-            id="searchDestination"
-            placeholder="Japan"
-          />
-          <label for="searchDestination" class="text-muted"
-            ><i class="bi bi-geo-alt-fill lightblue ms-3 me-3"></i
-            >Destination</label
-          >
-        </div>
-        <div class="form-floating date w-auto" id="datepicker">
-          <input
-            type="text"
-            class="form-control"
-            id="searchDate"
-            placeholder="01/01/2025"
-          />
-          <label for="searchDate" class="text-muted"
-            ><i class="bi bi-calendar3-week-fill lightblue ms-3 me-3"></i
-            >Date</label
-          >
-          <span class="input-group-append mt-5"></span>
-        </div>
-        <span class="input-group-text">
-          <button type="button" class="btn text-white">SEARCH</button>
-        </span>
-      </div>
     </section>
 
     <div class="row g-5 album py-5 px-5 mx-5">
-      <div id="rightbar" class="col-md-5 col-lg-4 order-md-first border rounded py-3">
-        <h4 class="d-flex align-items-center mb-3">
+      <div
+        id="rightbar"
+        class="col-md-5 col-lg-4 order-md-first border rounded py-3"
+      >
+        <p class="d-flex align-items-center m-3">
           <span class="text-primary">Tour Code : </span>
           <span id="tourCode" class="text-primary"> N/A</span>
-        </h4>
+        </p>
         <ul class="list-group mb-3">
-          <li class="list-group-item d-flex justify-content-between lh-sm border-0">
-            <div>
-              <h6 class="my-0">Product name</h6>
-              <small class="text-body-secondary">Brief description</small>
+          <li
+            class="list-group-item d-flex justify-content-between lh-sm border-0"
+          >
+            <div class="d-flex">
+              <!-- <h6 class="my-0">Product name</h6> -->
+              <i class="col bi bi-calendar-fill ps-1 lightblue px-2"></i>
+              <p class>Duration:</p>
             </div>
-            <span class="text-body-secondary">$12</span>
+            <span class="text-body-secondary">7 Days</span>
           </li>
-          <li class="list-group-item d-flex justify-content-between lh-sm border-0">
-            <div>
-              <h6 class="my-0">Second product</h6>
-              <small class="text-body-secondary">Brief description</small>
+          <li
+            class="list-group-item d-flex justify-content-between lh-sm border-0"
+          >
+            <div class="d-flex">
+              <!-- <h6 class="my-0">Product name</h6> -->
+              <i class="col bi bi-calendar-fill ps-1 lightblue px-2"></i>
+              <p class>Tour Type:</p>
             </div>
-            <span class="text-body-secondary">$8</span>
+            <span class="text-body-secondary">7 Days</span>
           </li>
-          <li class="list-group-item d-flex justify-content-between lh-sm border-0">
-            <div>
-              <h6 class="my-0">Third item</h6>
-              <small class="text-body-secondary">Brief description</small>
+          <li
+            class="list-group-item d-flex justify-content-between lh-sm border-0"
+          >
+            <div class="d-flex">
+              <!-- <h6 class="my-0">Product name</h6> -->
+              <i class="col bi bi-calendar-fill ps-1 lightblue px-2"></i>
+              <p class>Breakfast Inclusive</p>
             </div>
-            <span class="text-body-secondary">$5</span>
-          </li>
-          <li class="list-group-item d-flex justify-content-between bg-body-tertiary">
-            <div class="text-success">
-              <h6 class="my-0">Promo code</h6>
-              <small>EXAMPLECODE</small>
-            </div>
-            <span class="text-success">−$5</span>
+            <span class="text-body-secondary">7 Days</span>
           </li>
         </ul>
 
-        <input type="button" class="btn btn-secondary w-100 my-1" value="Redeem"/>
-        <input type="button" class="btn btn-secondary w-100 my-1" value="Redeem"/>
-        <input type="button" class="btn btn-secondary w-100 my-1" value="Redeem"/>
-        <!-- <form class="card p-2 mt-5">
-          <div class="input-group">
-            <input type="text" class="form-control" placeholder="Promo code">
-            <button type="submit" class="btn btn-secondary">Redeem</button>
-          </div>
-        </form> -->
+        <button
+          type="button"
+          class="btn btn-secondary toggle w-100 my-1"
+          value="Share On Whatsapp"
+        >
+          Download Itinerary
+        </button>
+        <button
+          type="button"
+          class="btn btn-secondary toggle w-100 my-1"
+          value="Share On Whatsapp"
+        >
+          Share On Whatsapp<i class="bi bi-whatsapp ms-2"></i>
+        </button>
+        <button
+          type="button"
+          class="btn btn-secondary toggle w-100 my-1 active"
+          value="Share On Whatsapp"
+        >
+          Book Now
+        </button>
       </div>
-      <div class="col-md-7 col-lg-8">
-        <h4 class="mb-3">Billing address</h4>
-        <h5 class="card-header" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Featured</h5>
+      <div class="col-md-7 col-lg-7 card shadow ms-5 p-4">
         <div class="">
-          <h5 class="card-header" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Featured</h5>
-          <div class="card-body collapse multi-collapse" id="multiCollapseExample1">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
+          <img
+            id="tourImage"
+            src="/img/airplane.jpg"
+            class="img-fluid rounded w-100"
+            alt=""
+          />
+          <h2 class="pt-3">N/A</h2>
+          <p class="text-muted">JDT-7</p>
         </div>
-        <form class="needs-validation" novalidate="">
-          <div class="row g-3">
-            <div class="col-sm-6">
-              <label for="firstName" class="form-label">First name</label>
-              <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
-              <div class="invalid-feedback">
-                Valid first name is required.
-              </div>
+        <hr />
+        <nav>
+          <div
+            id="swapTab"
+            class="nav nav-tabs row row-cols-2 border-bottom-0 mb-4"
+            role="tablist"
+          >
+            <div class="col">
+              <button
+                class="btn toggle btn-light w-100 m-1 active"
+                id="nav-departure-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-departure"
+                type="button"
+                role="tab"
+                aria-controls="nav-departure"
+                aria-selected="true"
+              >
+                Departure Dates
+              </button>
             </div>
-
-            <div class="col-sm-6">
-              <label for="lastName" class="form-label">Last name</label>
-              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
-              <div class="invalid-feedback">
-                Valid last name is required.
-              </div>
+            <div class="col">
+              <button
+                class="btn toggle btn-light w-100 m-1"
+                id="nav-description-tab"
+                data-bs-toggle="tab"
+                data-bs-target="#nav-description"
+                type="button"
+                role="tab"
+                aria-controls="nav-description"
+                aria-selected="false"
+              >
+                Description
+              </button>
             </div>
-
-            <div class="col-12">
-              <label for="username" class="form-label">Username</label>
-              <div class="input-group has-validation">
-                <span class="input-group-text">@</span>
-                <input type="text" class="form-control" id="username" placeholder="Username" required="">
-              <div class="invalid-feedback">
-                  Your username is required.
+          </div>
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
+          <div
+            class="tab-pane fade show active"
+            id="nav-departure"
+            role="tabpanel"
+            aria-labelledby="nav-departure-tab"
+            tabindex="0"
+          >
+            <div class="row row-cols-4 text-center px-2">
+              <div class="col"><p>Departure Date</p></div>
+              <div class="col"><p>Airline</p></div>
+              <div class="col"><p>Price</p></div>
+              <div class="col"><p>Status</p></div>
+            </div>
+            <div class="accordion" id="accordionPanelsStayOpenExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne"
+                    aria-expanded="true"
+                    aria-controls="panelsStayOpen-collapseOne"
+                  >
+                    Details
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseOne"
+                  class="accordion-collapse collapse show"
+                  aria-labelledby="panelsStayOpen-headingOne"
+                >
+                  <div class="accordion-body">
+                    <div class="row row-cols-4 table table-hover">
+                      <div class="col"><p>Departure Date</p></div>
+                      <div class="col"><p>Airline</p></div>
+                      <div class="col"><p>Price</p></div>
+                      <div class="col"><p>Status</p></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseTwo"
+                  >
+                    Accordion Item #2
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingTwo"
+                >
+                  <div class="accordion-body"></div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    Accordion Item #3
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingThree"
+                >
+                  <div class="accordion-body">
+                    <strong>This is the third item's accordion body.</strong> It
+                    is hidden by default, until the collapse plugin adds the
+                    appropriate classes that we use to style each element. These
+                    classes control the overall appearance, as well as the
+                    showing and hiding via CSS transitions. You can modify any
+                    of this with custom CSS or overriding our default variables.
+                    It's also worth noting that just about any HTML can go
+                    within the <code>.accordion-body</code>, though the
+                    transition does limit overflow.
+                  </div>
                 </div>
               </div>
             </div>
-
-            <div class="col-12">
-              <label for="email" class="form-label">Email <span class="text-body-secondary">(Optional)</span></label>
-              <input type="email" class="form-control" id="email" placeholder="you@example.com">
-              <div class="invalid-feedback">
-                Please enter a valid email address for shipping updates.
+          </div>
+          <!-- TAB 2 -->
+          <div
+            class="tab-pane fade"
+            id="nav-description"
+            role="tabpanel"
+            aria-labelledby="nav-description-tab"
+            tabindex="0"
+          >
+            <div class="card">
+              <div class="card-header bg-lightblue w-100 text-center m-0">
+                <p class="text-white m-0"><strong>DETAILS</strong></p>
+              </div>
+              <div class="card-body">
+                <p class="card-text">
+                  Some quick example text to build on the card title and make up
+                  the bulk of the card's content.
+                </p>
               </div>
             </div>
-
-            <div class="col-12">
-              <label for="address" class="form-label">Address</label>
-              <input type="text" class="form-control" id="address" placeholder="1234 Main St" required="">
-              <div class="invalid-feedback">
-                Please enter your shipping address.
-              </div>
-            </div>
-
-            <div class="col-12">
-              <label for="address2" class="form-label">Address 2 <span class="text-body-secondary">(Optional)</span></label>
-              <input type="text" class="form-control" id="address2" placeholder="Apartment or suite">
-            </div>
-
-            <div class="col-md-5">
-              <label for="country" class="form-label">Country</label>
-              <select class="form-select" id="country" required="">
-                <option value="">Choose...</option>
-                <option>United States</option>
-              </select>
-              <div class="invalid-feedback">
-                Please select a valid country.
-              </div>
-            </div>
-
-            <div class="col-md-4">
-              <label for="state" class="form-label">State</label>
-              <select class="form-select" id="state" required="">
-                <option value="">Choose...</option>
-                <option>California</option>
-              </select>
-              <div class="invalid-feedback">
-                Please provide a valid state.
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <label for="zip" class="form-label">Zip</label>
-              <input type="text" class="form-control" id="zip" placeholder="" required="">
-              <div class="invalid-feedback">
-                Zip code required.
-              </div>
+            <div class="w-100 d-flex justify-content-center">
+              <button
+                type="button"
+                class="btn btn-secondary toggle my-5 active"
+                value="Share On Whatsapp"
+              >
+                Book Now
+              </button>
             </div>
           </div>
-
-          <hr class="my-4">
-
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="same-address">
-            <label class="form-check-label" for="same-address">Shipping address is the same as my billing address</label>
-          </div>
-
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="save-info">
-            <label class="form-check-label" for="save-info">Save this information for next time</label>
-          </div>
-
-          <hr class="my-4">
-
-          <h4 class="mb-3">Payment</h4>
-
-          <div class="my-3">
-            <div class="form-check">
-              <input id="credit" name="paymentMethod" type="radio" class="form-check-input" checked="" required="">
-              <label class="form-check-label" for="credit">Credit card</label>
-            </div>
-            <div class="form-check">
-              <input id="debit" name="paymentMethod" type="radio" class="form-check-input" required="">
-              <label class="form-check-label" for="debit">Debit card</label>
-            </div>
-            <div class="form-check">
-              <input id="paypal" name="paymentMethod" type="radio" class="form-check-input" required="">
-              <label class="form-check-label" for="paypal">PayPal</label>
-            </div>
-          </div>
-
-          <div class="row gy-3">
-            <div class="col-md-6">
-              <label for="cc-name" class="form-label">Name on card</label>
-              <input type="text" class="form-control" id="cc-name" placeholder="" required="">
-              <small class="text-body-secondary">Full name as displayed on card</small>
-              <div class="invalid-feedback">
-                Name on card is required
-              </div>
-            </div>
-
-            <div class="col-md-6">
-              <label for="cc-number" class="form-label">Credit card number</label>
-              <input type="text" class="form-control" id="cc-number" placeholder="" required="">
-              <div class="invalid-feedback">
-                Credit card number is required
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <label for="cc-expiration" class="form-label">Expiration</label>
-              <input type="text" class="form-control" id="cc-expiration" placeholder="" required="">
-              <div class="invalid-feedback">
-                Expiration date required
-              </div>
-            </div>
-
-            <div class="col-md-3">
-              <label for="cc-cvv" class="form-label">CVV</label>
-              <input type="text" class="form-control" id="cc-cvv" placeholder="" required="">
-              <div class="invalid-feedback">
-                Security code required
-              </div>
-            </div>
-          </div>
-
-          <hr class="my-4">
-
-          <button class="w-100 btn btn-primary btn-lg" type="submit">Continue to checkout</button>
-        </form>
+        </div>
       </div>
     </div>
-
-    <!-- <div class="album py-5 px-5 mx-5">
-      <div class="container">
-        <div
-          id="list-destination"
-          class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4"
-        >
-          <div class="col">
-            <div class="card shadow-sm p-3">
-              <img src="/img/tokyo.jpg" class="img-fluid rounded" alt="" />
-              <div class="card-body">
-                <p class="card-text mb-0">
-                  <strong>
-                    OSAKA / KYOTO / HAKONE / TOKYO + TWIN THEME PARK
-                  </strong>
-                </p>
-                <p class="card-text small">JDT-7</p>
-                <p class="card-text mb-0 small">from</p>
-                <p class="card-text">
-                  <strong> RM3899.00 </strong>
-                </p>
-                <hr />
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <p class="card-text mb-0">
-                      7 Days<i class="bi bi-calendar-fill ps-1 lightblue"></i> 6
-                      Nights<i class="bi bi-moon-fill ps-1 lightblue"></i>
-                    </p>
-                  </div>
-                  <div class="btn-group">
-                    <button class="btn btn-sm bg-lightblue text-light">
-                      More info<i class="bi bi-arrow-right align-end"></i>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg
-                class="bd-placeholder-img card-img-top"
-                width="100%"
-                height="225"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg
-                class="bd-placeholder-img card-img-top"
-                width="100%"
-                height="225"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg
-                class="bd-placeholder-img card-img-top"
-                width="100%"
-                height="225"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg
-                class="bd-placeholder-img card-img-top"
-                width="100%"
-                height="225"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg
-                class="bd-placeholder-img card-img-top"
-                width="100%"
-                height="225"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg
-                class="bd-placeholder-img card-img-top"
-                width="100%"
-                height="225"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg
-                class="bd-placeholder-img card-img-top"
-                width="100%"
-                height="225"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <svg
-                class="bd-placeholder-img card-img-top"
-                width="100%"
-                height="225"
-                xmlns="http://www.w3.org/2000/svg"
-                role="img"
-                aria-label="Placeholder: Thumbnail"
-                preserveAspectRatio="xMidYMid slice"
-                focusable="false"
-              >
-                <title>Placeholder</title>
-                <rect width="100%" height="100%" fill="#55595c"></rect>
-                <text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text>
-              </svg>
-              <div class="card-body">
-                <p class="card-text">
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      View
-                    </button>
-                    <button
-                      type="button"
-                      class="btn btn-sm btn-outline-secondary"
-                    >
-                      Edit
-                    </button>
-                  </div>
-                  <small class="text-body-secondary">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div> -->
-
     <footer id="footer"></footer>
 
     <!-- Optional JavaScript -->
@@ -683,92 +328,98 @@
     <script src="/js/index.js"></script>
 
     <script type="text/javascript">
-      window.onload = function () {
-        const path = window.location.pathname; // Gets the full path like '/destination/Japan'
-        const lastSegment = path.split('/').pop(); // Splits by '/' and gets the last part
-        $("#countryName").text(lastSegment);
-        console.log(lastSegment);
-        // Fetch the external destinationCard.html
-        $("#list-destination").empty();
-        fetch("/components/destinationCard.html")
-          .then((response) => response.text()) // Get the text content of the file
-          .then((html) => {
-            const params = [
-              {
-                destinationId: 0,
-                destinationName: "Destination 1",
-                destinationImage: "/img/tokyo.jpg",
-                destinationPrice: "Destination 1's Price",
-                destinationDays: "2",
-                destinationNights: "1",
-              },
-              {
-                destinationId: 1,
-                destinationName: "Destination 2",
-                destinationImage: "",
-                destinationPrice: "Destination 2's Price",
-                destinationDays: "3",
-                destinationNights: "2",
-              },
-              {
-                destinationId: 2,
-                destinationName: "Destination 3",
-                destinationImage: "/img/airplane.jpg",
-                destinationPrice: "Destination 3's Price",
-                destinationDays: "4",
-                destinationNights: "3",
-              },
-              {
-                destinationId: 3,
-                destinationName: "Destination 4",
-                destinationImage: "/img/airplane.jpg",
-                destinationPrice: "Destination 4's Price",
-                destinationDays: "5",
-                destinationNights: "4",
-              },
-            ];
+      //window.onload = function () {
+      const path = window.location.pathname; // Gets the full path like '/destination/Japan'
+      const lastSegment = path.split("/").pop(); // Splits by '/' and gets the last part
+      $("#countryName").text(lastSegment);
+      // Fetch the external destinationCard.html
+      $("#list-destination").empty();
+      fetch("/components/destinationCard.html")
+        .then((response) => response.text()) // Get the text content of the file
+        .then((html) => {
+          const params = [
+            {
+              destinationId: 0,
+              destinationName: "Destination 1",
+              destinationImage: "/img/tokyo.jpg",
+              destinationPrice: "Destination 1's Price",
+              destinationDays: "2",
+              destinationNights: "1",
+            },
+            {
+              destinationId: 1,
+              destinationName: "Destination 2",
+              destinationImage: "",
+              destinationPrice: "Destination 2's Price",
+              destinationDays: "3",
+              destinationNights: "2",
+            },
+            {
+              destinationId: 2,
+              destinationName: "Destination 3",
+              destinationImage: "/img/airplane.jpg",
+              destinationPrice: "Destination 3's Price",
+              destinationDays: "4",
+              destinationNights: "3",
+            },
+            {
+              destinationId: 3,
+              destinationName: "Destination 4",
+              destinationImage: "/img/airplane.jpg",
+              destinationPrice: "Destination 4's Price",
+              destinationDays: "5",
+              destinationNights: "4",
+            },
+          ];
 
-            var listHtml;
-            listCard(html, params);
-            // Optionally append the modified content to your main page
-            // document.getElementById("list-destination").innerHTML =
-            //   doc.body.innerHTML;
-          })
-          .catch((err) =>
-            console.log("Error loading destinationCard.html:", err)
-          );
+          var listHtml;
+          listCard(html, params);
+          // Optionally append the modified content to your main page
+          // document.getElementById("list-destination").innerHTML =
+          //   doc.body.innerHTML;
+        })
+        .catch((err) =>
+          console.log("Error loading destinationCard.html:", err)
+        );
 
-          function listCard(html, params) {
-            // Parse the HTML template once
-            const parser = new DOMParser();
-            const doc = parser.parseFromString(html, "text/html");
-            const listDestinationElement = document.getElementById("list-destination");
+      function listCard(html, params) {
+        // Parse the HTML template once
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(html, "text/html");
+        const listDestinationElement =
+          document.getElementById("list-destination");
 
-            params.forEach((element) => {
-              // Clone the parsed template to avoid modifying the same nodes
-              const card = doc.body.firstElementChild.cloneNode(true); 
+        params.forEach((element) => {
+          // Clone the parsed template to avoid modifying the same nodes
+          const card = doc.body.firstElementChild.cloneNode(true);
 
-              // Modify the content of the cloned card
-              const destinationId = card.querySelector("#destinationId");
-              const destinationName = card.querySelector("#destinationName");
-              const destinationImage = card.querySelector("#destinationImage");
-              const destinationPrice = card.querySelector("#destinationPrice");
-              const destinationDays = card.querySelector("#destinationDays");
-              const destinationNights = card.querySelector("#destinationNights");
+          // Modify the content of the cloned card
+          const destinationId = card.querySelector("#destinationId");
+          const destinationName = card.querySelector("#destinationName");
+          const destinationImage = card.querySelector("#destinationImage");
+          const destinationPrice = card.querySelector("#destinationPrice");
+          const destinationDays = card.querySelector("#destinationDays");
+          const destinationNights = card.querySelector("#destinationNights");
 
-              // Update the cloned card content with the current destination data
-              if (destinationId) destinationId.value = element.destinationId;
-              if (destinationName) destinationName.textContent = element.destinationName;
-              if (destinationImage && element.destinationImage) destinationImage.src = element.destinationImage;
-              if (destinationPrice) destinationPrice.textContent = "RM " + element.destinationPrice;
-              if (destinationDays) destinationDays.textContent = element.destinationDays + " Days ";
-              if (destinationNights) destinationNights.textContent = element.destinationNights + " Nights ";
+          // Update the cloned card content with the current destination data
+          if (destinationId) destinationId.value = element.destinationId;
+          if (destinationName)
+            destinationName.textContent = element.destinationName;
+          if (destinationImage && element.destinationImage)
+            destinationImage.src = element.destinationImage;
+          if (destinationPrice)
+            destinationPrice.textContent = "RM " + element.destinationPrice;
+          if (destinationDays)
+            destinationDays.textContent = element.destinationDays + " Days ";
+          if (destinationNights)
+            destinationNights.textContent =
+              element.destinationNights + " Nights ";
 
-              // Append the modified card to the list
-              listDestinationElement.appendChild(card);
-            });
-          }
-      };
+          // Append the modified card to the list
+          listDestinationElement.appendChild(card);
+        });
+      }
+      //};
     </script>
   </body>
 </html>

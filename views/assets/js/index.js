@@ -13,8 +13,8 @@ window.onload = function() {
             $(".nav-link").on("click", function(){
                 $(".nav").find(".active").removeClass("active");
                 $(this).addClass("active");
-                console.log("a");
             });
+            console.log("Navbar")
         })
         .catch(error => {
             console.error('Error loading navbar:', error);
