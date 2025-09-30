@@ -1,0 +1,538 @@
+{
+	"Response": {
+		"Service": "SMEDTLRPTS",
+		"ReportType": "CRR",
+		"ReportTitle": "CREDIT RISK REPORT",
+		"MemberID": "F9866",
+		"UserID": "PF98660007",
+		"ReqNo": "202508238927312",
+		"SequenceNo": "003",
+		"ReqDate": "23/08/2025",
+		"PurposeStdCode": "CREREV",
+		"Purpose": "CREDIT REVIEW",
+		"CostCenterStdCode": "",
+		"CostCenter": "",
+		"TradeAvailable": "N",
+		"ResponseDate": "23/08/2025 11:55:43",
+		"Warning": "",
+		"Errors": "",
+		"Subjects": {
+			"Subject": {
+				"RegNo": "VGhlRW5jcnlwdGlvbnQwVXMzUGFzc3dvcmQjMlRoZUVuY3J5cHRpb250MFVzM1Bhc3N3b3JkIzIqZGGVHehdZ07JPsN3hTJdmXxn9eap6Olu3g==",
+				"NewRegNo": "VGhlRW5jcnlwdGlvbnQwVXMzUGFzc3dvcmQjMlRoZUVuY3J5cHRpb250MFVzM1Bhc3N3b3JkIzJSDWiWFelYYEu11Tvm2V3a8+rZLb+2KL/FfBFw",
+				"RegNo2": "VGhlRW5jcnlwdGlvbnQwVXMzUGFzc3dvcmQjMlRoZUVuY3J5cHRpb250MFVzM1Bhc3N3b3JkIzJGueRw7tupPaH7LgTfZr0M",
+				"RegName": "ZAINI MOTORS",
+				"DateBR": "25/02/1993",
+				"ConstitutionTypeStdCode": "21",
+				"ConstitutionType": "SOLE PROPRIETOR",
+				"BusinessCouCodeStdCode": "MY",
+				"BusinessCouCode": "MALAYSIA",
+				"BusinessStaCodeStdCode": "08",
+				"BusinessStaCode": "PERAK",
+				"EntityCode": "4444373",
+				"TradeEntityCode": "",
+				"Warning": "",
+				"EmailAddr": "",
+				"MobileNo": ""
+			}
+		},
+		"InterestParties": {
+			"InterestParty": {
+				"TypeStdCode": "011",
+				"Name": "MOHAMAD SYAFIQ BIN MOHAMAD ZAINI",
+				"IDNo1": "VGhlRW5jcnlwdGlvbnQwVXMzUGFzc3dvcmQjMlRoZUVuY3J5cHRpb250MFVzM1Bhc3N3b3JkIzJaAmGSF+xYaEix2zRFqEU02wBCMX6pRCpynLLi",
+				"IDNo2": "VGhlRW5jcnlwdGlvbnQwVXMzUGFzc3dvcmQjMlRoZUVuY3J5cHRpb250MFVzM1Bhc3N3b3JkIzJGueRw7tupPaH7LgTfZr0M",
+				"DateBR": "26/07/1996",
+				"Nationality": "MY",
+				"EntityCode": "27967314",
+				"TradeEntityCode": "",
+				"Warning": ""
+			}
+		},
+		"Report": {
+			"SMEProfile": {
+				"RegNo": "VGhlRW5jcnlwdGlvbnQwVXMzUGFzc3dvcmQjMlRoZUVuY3J5cHRpb250MFVzM1Bhc3N3b3JkIzIqZGGVHehdZ07JPsN3hTJdmXxn9eap6Olu3g==",
+				"NewRegNo": "VGhlRW5jcnlwdGlvbnQwVXMzUGFzc3dvcmQjMlRoZUVuY3J5cHRpb250MFVzM1Bhc3N3b3JkIzJSDWiWFelYYEu11Tvm2V3a8+rZLb+2KL/FfBFw",
+				"RegName": "ZAINI MOTORS",
+				"OldName": "-",
+				"NameChangeDate": "",
+				"ConstitutionTypeStdCode": "21",
+				"ConstitutionType": "SOLE PROPRIETOR",
+				"DateBR": "25/02/1993",
+				"DateFBR": "-",
+				"StsStdCode": "A",
+				"Sts": "ACTIVE",
+				"CompanyTypeStdCode": "-",
+				"CompanyStatus": "-",
+				"BusinessDescription": "BENGKEL KERETA, MEMBAIKI KENDERAAN BERMOTOR, KIMPALAN, MENGECAT, MEMBEKAL DAN MENJUAL ALAT ALAT GANTI KENDERAAN BERMOTOR, BAHAN PELINCIR, KERJA KERJA KHUSUS BAIK PULIH ENJIN, PENYELENGGARAAN ALAT HAWA DINGIN KENDERAAN, MEMBAIKPULIH TEMPAT DUDUK, KUSYEN DAN BUMBUNG KENDERAAN",
+				"LastUpdated": "23/08/2025",
+				"CouCodeStdCode": "-",
+				"CouCode": "-",
+				"CorpStsCode": "-",
+				"CorpStsDesc": "-",
+				"IndSecCode": "-",
+				"IndSecDesc": "-",
+				"ResidencyCode": "-",
+				"ResidencyDesc": "-",
+				"RegAdd1": "",
+				"RegAdd2": "",
+				"RegAdd3": "",
+				"RegAdd4": "",
+				"RegTown": "",
+				"RegPostCode": "-",
+				"RegStaCodeStdCode": "-",
+				"RegStaCode": "",
+				"RegCouCodeStdCode": "MY",
+				"RegCouCode": "MALAYSIA",
+				"BusinessAdd1": "NO.49, JALAN DATOK SAGOR, JALAN LOW",
+				"BusinessAdd2": "",
+				"BusinessAdd3": "",
+				"BusinessAdd4": "",
+				"BusinessTown": "KUALA KANGSAR",
+				"BusinessPostCode": "33000",
+				"BusinessStaCodeStdCode": "A",
+				"BusinessStaCode": "Perak",
+				"BusinessCouCodeStdCode": "-",
+				"BusinessCouCode": "",
+				"StartDate": "28/01/1993",
+				"ClosingDate": "-",
+				"AmendmentDate": "22/04/2009",
+				"RegExpiryDate": "20/11/2026",
+				"Ownership": "SOLE PROPRIETORSHIP",
+				"CreditRating": {
+					"PD": "123",
+					"PCTL": "234",
+					"KIFs": {
+						"KIF": [
+							"There is no evidence of deteriorating trend in delinquency",
+							"There is no track record of high delinquency on the accounts",
+							"There is no evidence of high delinquency on the accounts in recent months"
+						]
+					}
+				},
+				"Summary": {
+					"TradeSummary": {
+						"LowDET": "-",
+						"AverageDET": "-",
+						"HighestDET": "-"
+					},
+					"LoanSummary": {
+						"Application": "0",
+						"ApprovedLoan": "0",
+						"DishonoredCheque": "-"
+					}
+				},
+				"Branches": {
+					"Branch": {
+						"Information": "-",
+						"Add1": "-",
+						"Add2": "",
+						"Add3": "",
+						"Add4": "",
+						"StaCodeStdCode": "-",
+						"StaCode": "-",
+						"CouCodeStdCode": "MY",
+						"CouCode": "MALAYSIA"
+					}
+				},
+				"BusinessSectors": {
+					"BusinessSector": {
+						"Priority": "",
+						"SectorDescription": "Maintenance and repair of motor vehicles",
+						"BusinessCode": "45201",
+						"Msic": ""
+					}
+				},
+				"CurrentOwners": {
+					"CurrentOwner": {
+						"Name": "MOHAMAD SYAFIQ BIN MOHAMAD ZAINI",
+						"Add1": "LOT3270 JALAN RAJA MUDA BUKIT CHANDAN",
+						"Add2": "",
+						"Add3": "",
+						"Add4": "",
+						"Town": "KUALA KANGSAR",
+						"PostCode": "33000",
+						"StaCodeStdCode": "A",
+						"StaCode": "Perak",
+						"CouCodeStdCode": "MY",
+						"CouCode": "MALAYSIA",
+						"IDNo1": "VGhlRW5jcnlwdGlvbnQwVXMzUGFzc3dvcmQjMlRoZUVuY3J5cHRpb250MFVzM1Bhc3N3b3JkIzJaAmGSF+xYaEix2zRFqEU02wBCMX6pRCpynLLi",
+						"IDNo2": "VGhlRW5jcnlwdGlvbnQwVXMzUGFzc3dvcmQjMlRoZUVuY3J5cHRpb250MFVzM1Bhc3N3b3JkIzJOGtZWDaz1uy8hOUd47EpYhg==",
+						"DateBR": "26/07/1996",
+						"Race": "MALAY",
+						"Gender": "MALE",
+						"Position": "-",
+						"Nationality": "MALAYSIAN CITIZEN",
+						"DateJoin": "23/01/2025",
+						"IdCardType": "K"
+					}
+				},
+				"PrevOwners": {
+					"PrevOwner": {
+						"Name": "MOHAMAD ZAINI BIN RAFIE",
+						"Add1": "NO.  322A,  JALAN ISTANA ISKANDARIAH BUKIT CHANDAN",
+						"Add2": "",
+						"Add3": "",
+						"Add4": "",
+						"Town": "KUALA KANGSAR",
+						"PostCode": "33000",
+						"StaCodeStdCode": "A",
+						"StaCode": "Perak",
+						"CouCodeStdCode": "MY",
+						"CouCode": "MALAYSIA",
+						"IDNo1": "VGhlRW5jcnlwdGlvbnQwVXMzUGFzc3dvcmQjMlRoZUVuY3J5cHRpb250MFVzM1Bhc3N3b3JkIzJVAmCVFeJYaEiy1TQXT0UPJfipeDuKQXxstZkS",
+						"IDNo2": "VGhlRW5jcnlwdGlvbnQwVXMzUGFzc3dvcmQjMlRoZUVuY3J5cHRpb250MFVzM1Bhc3N3b3JkIzIiBGSRFu5fYsk10KWMJGhKsnfUl7hVQEo=",
+						"DateBR": "08/10/1966",
+						"Race": "MALAY",
+						"Gender": "MALE",
+						"Position": "-",
+						"Nationality": "MALAYSIAN CITIZEN",
+						"DateJoin": "02/05/2013",
+						"IdCardType": "K",
+						"DateResigned": "22/08/2025",
+						"ReasonResigned": "PULL-OUT"
+					}
+				},
+				"CCRISProfiles": "",
+				"LoanInfo": {
+					"Warning": "-",
+					"Summary": {
+						"ApprovedApp": {
+							"No": "0",
+							"TotalAmt": "0.00"
+						},
+						"PendingApp": {
+							"No": "0",
+							"TotalAmt": "0.00"
+						},
+						"Borrower": {
+							"Outstanding": "3,500.00",
+							"Limit": "30,000.00",
+							"Fec": "0.00"
+						},
+						"Guarantor": {
+							"Limit": "0.00",
+							"Fec": "0.00"
+						},
+						"Total": {
+							"Limit": "30,000.00",
+							"Fec": "0.00"
+						},
+						"LegSts": "N",
+						"SpecAttn": "N"
+					},
+					"InstlYr": {
+						"Y1": "2025",
+						"Y2": "2024"
+					},
+					"InstlMth": {
+						"M1": "A",
+						"M2": "J",
+						"M3": "J",
+						"M4": "M",
+						"M5": "A",
+						"M6": "M",
+						"M7": "F",
+						"M8": "J",
+						"M9": "D",
+						"M10": "N",
+						"M11": "O",
+						"M12": "S"
+					},
+					"TotalBal": "3,500.00",
+					"TotalLimit": "30,000.00",
+					"Applications": "",
+					"Accounts": {
+						"Account": {
+							"No": "1",
+							"ApprovedDate": "22/05/2020",
+							"Capacity": "Own",
+							"LenderType": "OTH",
+							"Limit": "30,000.00",
+							"MCols": {
+								"MCol": {
+									"MColTypStdCode": "",
+									"MColTyp": "",
+									"MColVal": ""
+								}
+							},
+							"LegStsStdCode": "",
+							"LegSts": "",
+							"LegDate": "",
+							"SubAccs": {
+								"SubAcc": {
+									"AccStsStdCode": "O",
+									"AccSts": "Outstanding",
+									"FacilityStdCode": "OTLNFNCE",
+									"Facility": "OTHER TERM LOANS/FINANCING",
+									"TotalOutstanding": "3,500.00",
+									"CrPosDate": "31/07/2025",
+									"RepayTermStdCode": "MTH",
+									"RepayTerm": "Monthly",
+									"InstlAmt": "500.00",
+									"ReschDat": "",
+									"RestrucDat": "",
+									"SCols": {
+										"SCol": {
+											"SColTypStdCode": "00",
+											"SColTyp": "Clean",
+											"SColVal": "0"
+										}
+									},
+									"InstlArr": {
+										"M1": "",
+										"M2": "0",
+										"M3": "0",
+										"M4": "1",
+										"M5": "0",
+										"M6": "0",
+										"M7": "0",
+										"M8": "1",
+										"M9": "0",
+										"M10": "0",
+										"M11": "0",
+										"M12": "0"
+									}
+								}
+							},
+							"MyFgn": "",
+							"Lender": ""
+						}
+					},
+					"SpecAttnAccs": ""
+				},
+				"DCheques": "",
+				"DChequesOwn": "",
+				"CRSEntities": {
+					"CRSEntity": {
+						"Add": "-",
+						"PostCode": "-",
+						"DateCreated": "-"
+					}
+				},
+				"TradeCredits": "",
+				"Narratives": {
+					"Narrative": {
+						"DateCreated": "-",
+						"NatureOfDispute": "-",
+						"Status": "-",
+						"StatusDate": "-"
+					}
+				},
+				"PrevEnquiries": "",
+				"CCRISSupps": "",
+				"Properties": "",
+				"PropertyProxies": "",
+				"TradeReference": {
+					"TotalBal": "",
+					"TotalLimit": ""
+				},
+				"Litigation": {
+					"Address": ""
+				},
+				"InboxPdfFile": "https://live.creditbureau.com.my/scbs/viewInboxPdfAction?UEFSQU1FVEVS=UEY5ODY2MDAwNzsyMDI1MDgyMzg5MjczMTI=",
+				"LastReturnDate": "",
+				"NextReturnDate": "",
+				"DueReturnDate": "",
+				"CPOFile": ""
+			},
+			"InterestParties": {
+				"InterestParty": {
+					"Numbering": "1",
+					"Type": "011",
+					"Name": "MOHAMAD SYAFIQ BIN MOHAMAD ZAINI",
+					"IDNo1": "VGhlRW5jcnlwdGlvbnQwVXMzUGFzc3dvcmQjMlRoZUVuY3J5cHRpb250MFVzM1Bhc3N3b3JkIzJaAmGSF+xYaEix2zRFqEU02wBCMX6pRCpynLLi",
+					"IDNo2": "VGhlRW5jcnlwdGlvbnQwVXMzUGFzc3dvcmQjMlRoZUVuY3J5cHRpb250MFVzM1Bhc3N3b3JkIzJGueRw7tupPaH7LgTfZr0M",
+					"DateBR": "26/07/1996",
+					"Nationality": "MALAYSIAN",
+					"ResidencyCode": "",
+					"ResidencyDesc": "",
+					"EntityCode": "27967314",
+					"TradeEntityCode": "",
+					"Relationship": "Director/Officer/Owner/Partner",
+					"CCRISProfiles": "",
+					"LoanInfo": {
+						"Warning": "-",
+						"Summary": {
+							"ApprovedApp": {
+								"No": "0",
+								"TotalAmt": "0.00"
+							},
+							"PendingApp": {
+								"No": "2",
+								"TotalAmt": "52,700.00"
+							},
+							"Borrower": {
+								"Outstanding": "66,540.00",
+								"Limit": "76,900.00",
+								"Fec": "0.00"
+							},
+							"Guarantor": {
+								"Limit": "0.00",
+								"Fec": "0.00"
+							},
+							"Total": {
+								"Limit": "76,900.00",
+								"Fec": "0.00"
+							},
+							"LegSts": "N",
+							"SpecAttn": "N"
+						},
+						"InstlYr": {
+							"Y1": "2025",
+							"Y2": "2024"
+						},
+						"InstlMth": {
+							"M1": "A",
+							"M2": "J",
+							"M3": "J",
+							"M4": "M",
+							"M5": "A",
+							"M6": "M",
+							"M7": "F",
+							"M8": "J",
+							"M9": "D",
+							"M10": "N",
+							"M11": "O",
+							"M12": "S"
+						},
+						"TotalBal": "66,540.00",
+						"TotalLimit": "76,900.00",
+						"Applications": {
+							"Application": [
+								{
+									"No": "1",
+									"Date": "13/08/2025",
+									"AppTyp": "N",
+									"StsStdCode": "P",
+									"Sts": "Pending Decision by FI",
+									"Capacity": "Own",
+									"LenderType": "CB",
+									"AmtAppl": "2,000.00",
+									"MyFgn": "",
+									"Facility": "CRDTCARD",
+									"PropertyStatus": "",
+									"PropertyAddressLine1": "",
+									"PropertyAddressLine2": "",
+									"PropertyAddressLine3": "",
+									"PropertyAddressLine4": "",
+									"PropertyCity": "",
+									"PropertyPostcode": "",
+									"PropertyStateCode": "",
+									"PropertyCountryCode": "",
+									"Lender": ""
+								},
+								{
+									"No": "2",
+									"Date": "13/08/2025",
+									"AppTyp": "N",
+									"StsStdCode": "P",
+									"Sts": "Pending Decision by FI",
+									"Capacity": "Own",
+									"LenderType": "CB",
+									"AmtAppl": "50,700.00",
+									"MyFgn": "",
+									"Facility": "PELNFNCE",
+									"PropertyStatus": "",
+									"PropertyAddressLine1": "",
+									"PropertyAddressLine2": "",
+									"PropertyAddressLine3": "",
+									"PropertyAddressLine4": "",
+									"PropertyCity": "",
+									"PropertyPostcode": "",
+									"PropertyStateCode": "",
+									"PropertyCountryCode": "",
+									"Lender": ""
+								}
+							]
+						},
+						"Accounts": {
+							"Account": {
+								"No": "1",
+								"ApprovedDate": "30/08/2023",
+								"Capacity": "Own",
+								"LenderType": "CB",
+								"Limit": "76,900.00",
+								"MCols": {
+									"MCol": [
+										{
+											"MColTypStdCode": "30",
+											"MColTyp": "M/Vehs",
+											"MColVal": "85542"
+										},
+										{
+											"MColTypStdCode": "70",
+											"MColTyp": "Fin Guarnte",
+											"MColVal": "66540"
+										}
+									]
+								},
+								"LegStsStdCode": "",
+								"LegSts": "",
+								"LegDate": "",
+								"SubAccs": {
+									"SubAcc": {
+										"AccStsStdCode": "O",
+										"AccSts": "Outstanding",
+										"FacilityStdCode": "PCPASCAR",
+										"Facility": "PURCHASE OF PASSENGER CARS",
+										"TotalOutstanding": "66,540.00",
+										"CrPosDate": "31/07/2025",
+										"RepayTermStdCode": "MTH",
+										"RepayTerm": "Monthly",
+										"InstlAmt": "895.00",
+										"ReschDat": "",
+										"RestrucDat": "",
+										"SCols": {
+											"SCol": {
+												"SColTypStdCode": "",
+												"SColTyp": "",
+												"SColVal": ""
+											}
+										},
+										"InstlArr": {
+											"M1": "",
+											"M2": "0",
+											"M3": "0",
+											"M4": "0",
+											"M5": "0",
+											"M6": "0",
+											"M7": "0",
+											"M8": "0",
+											"M9": "0",
+											"M10": "0",
+											"M11": "0",
+											"M12": "0"
+										}
+									}
+								},
+								"MyFgn": "",
+								"Lender": ""
+							}
+						},
+						"SpecAttnAccs": ""
+					},
+					"DCheques": "",
+					"DChequesOwn": "",
+					"CRSEntities": {
+						"CRSEntity": {
+							"Add": "-",
+							"PostCode": "-",
+							"DateCreated": "-"
+						}
+					},
+					"Warning": "",
+					"Properties": "",
+					"PropertyProxies": "",
+					"TradeReference": {
+						"TotalBal": "",
+						"TotalLimit": ""
+					},
+					"Litigation": {
+						"Address": ""
+					}
+				}
+			}
+		}
+	}
+}

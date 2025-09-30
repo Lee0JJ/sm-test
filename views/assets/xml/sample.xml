@@ -1,0 +1,183 @@
+<Response>
+    <Address>-</Address>
+    <WindingCompanies>
+        <WindingUpCommonBO>
+            <CaseNo>WA-28NCC-1666-12/2023</CaseNo>
+            <SubjectRole>DEFENDANT</SubjectRole>
+            <Duration>21</Duration>
+            <EstimateDuration>14</EstimateDuration>
+            <CaseStages>
+                <LtgnCommonCaseBO>
+                    <StageCode>WWOS</StageCode>
+                    <StageDesc>WRIT OF SUMMON</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>BWOS</StageCode>
+                    <StageDesc>WRIT OF SUMMON</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>WUP</StageCode>
+                    <StageDesc>WINDING UP PETITION</StageDesc>
+                    <Date>12/12/2023</Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>BN</StageCode>
+                    <StageDesc>BANKRUPTCY NOTICE(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>WUBJUD</StageCode>
+                    <StageDesc>JUDGEMENT(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>BCP</StageCode>
+                    <StageDesc>CREDITORS PETITION(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>BJUD</StageCode>
+                    <StageDesc>JUDGEMENT(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>WUO</StageCode>
+                    <StageDesc>WINDING UP ORDER(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>WUAOR</StageCode>
+                    <StageDesc>APPOINTMENT OF OR(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>BARO</StageCode>
+                    <StageDesc>ADJUDICATION OR RECEIVING ORDER(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>BAOO</StageCode>
+                    <StageDesc>APPOINTMENT OF OR(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>WFM</StageCode>
+                    <StageDesc>FIRST MEETING(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>WDOD</StageCode>
+                    <StageDesc>DECLARATION OF DIVIDEND(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>BFM</StageCode>
+                    <StageDesc>FIRST MEETING(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>BDOD</StageCode>
+                    <StageDesc>DECLARATION OF DIVIDEND(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>WSSM</StageCode>
+                    <StageDesc>SUBSEQUENT MEETING(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>BSSM</StageCode>
+                    <StageDesc>SUBSEQUENT MEETING(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>WFINM</StageCode>
+                    <StageDesc>FINAL MEETING(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>BFINM</StageCode>
+                    <StageDesc>FINAL MEETING(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>WDIS</StageCode>
+                    <StageDesc>DISSOLVED(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>BDIS</StageCode>
+                    <StageDesc>DISCHARGE(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>AUC</StageCode>
+                    <StageDesc>AUCTION(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>BEFILING</StageCode>
+                    <StageDesc>eCause List(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+                <LtgnCommonCaseBO>
+                    <StageCode>WEFILING</StageCode>
+                    <StageDesc>eCause List(NA)</StageDesc>
+                    <Date></Date>
+                </LtgnCommonCaseBO>
+            </CaseStages>
+            <Court>MAHKAMAH TINGGI</Court>
+            <City>KUALA LUMPUR</City>
+            <State>WILAYAH PERSEKUTUAN</State>
+            <Amount>-</Amount>
+            <PlaintiffName>CIMB BANK BERHAD</PlaintiffName>
+            <PlaintiffID>197201001799</PlaintiffID>
+            <PlaintiffAddr>Level 13, Menara CIMB, Jalan Stesen Sentral 2, Kuala Lumpur Sentral,
+                50470 Kuala Lumpur</PlaintiffAddr>
+            <DefendantName>SENTIASA HEBAT SDN. BHD.</DefendantName>
+            <DefendantID>200301030539 (632959D)</DefendantID>
+            <DefendantAddr>-</DefendantAddr>
+            <SolicitorName>Azhar & Wong</SolicitorName>
+            <SolicitorAddr>16-08, Tingkat 16, Menara Centara, 360, Jalan Tuanku Abdul Rahman, 50100
+                Kuala Lumpur.</SolicitorAddr>
+            <SolicitorTelNo>03-26023898</SolicitorTelNo>
+            <SolicitorRefNo>RL/CIMB-LIT/LACA/13806-1638/ima</SolicitorRefNo>
+            <LiquidatorName>-</LiquidatorName>
+            <LiquidatorAddr>-</LiquidatorAddr>
+            <LiquidatorTelNo>-</LiquidatorTelNo>
+            <LiquidatorRefNo>-</LiquidatorRefNo>
+            <Sources>
+                <com.bitioz.report.bo.LtgnCommonSourceBO>
+                    <StageCode>WUP</StageCode>
+                    <StageDesc>WINDING UP PETITION</StageDesc>
+                    <StageSeq>2</StageSeq>
+                    <Publication>THE STAR</Publication>
+                    <Date>05/12/2023</Date>
+                    <AccessDate>05/12/2023</AccessDate>
+                    <JudgementDate></JudgementDate>
+                </com.bitioz.report.bo.LtgnCommonSourceBO>
+            </Sources>
+            <Remarks>-</Remarks>
+            <EntityType>Respondent</EntityType>
+            <OCRStatus>CP</OCRStatus>
+            <Status></Status>
+            <StatusDate></StatusDate>
+            <OrderDate></OrderDate>
+            <MeetingDate></MeetingDate>
+            <PetitionDate>08/08/2023</PetitionDate>
+            <HearingDate>12/12/2023</HearingDate>
+            <CaseDate></CaseDate>
+            <LitigationType>WUP</LitigationType>
+            <AddressOfProperty></AddressOfProperty>
+            <ParticularsTitleOfProperty></ParticularsTitleOfProperty>
+            <ReservePrice></ReservePrice>
+            <AuctionDate></AuctionDate>
+            <SettlementDate></SettlementDate>
+            <DissolutionDate></DissolutionDate>
+            <CaseStmt>-</CaseStmt>
+        </WindingUpCommonBO>
+    </WindingCompanies>
+    <LtgnIndicator></LtgnIndicator>
+</Response>

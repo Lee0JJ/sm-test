@@ -1,0 +1,2971 @@
+<Response>
+  <SystemID>SCBS</SystemID>
+  <ReqNo>202509181283074</ReqNo>
+  <SequenceNo>003</SequenceNo>
+  <ReqDate>18/09/2025</ReqDate>
+  <FICode />
+  <UserID>PSCBS0489</UserID>
+  <Purpose>CREREV</Purpose>
+  <ReportType>CER</ReportType>
+  <Services>
+    <CCRIS>N</CCRIS>
+    <BIPCCRIS>N</BIPCCRIS>
+    <DCheqs>N</DCheqs>
+    <SSMStaging>SMEDTLRPTS</SSMStaging>
+    <EInfo>null</EInfo>
+    <Trade>N</Trade>
+    <SMERating>N</SMERating>
+    <FIS>N</FIS>
+    <SCORE>N</SCORE>
+    <PBM>N</PBM>
+    <BIPPBM>N</BIPPBM>
+    <CRAServiceInd>Y</CRAServiceInd>
+    <LITIGATION>SMEDTLRPTS</LITIGATION>
+    <BIPLITIGATION>N</BIPLITIGATION>
+    <TRN>N</TRN>
+    <INCOMEESTIMATION>N</INCOMEESTIMATION>
+  </Services>
+  <Subject>
+    <RegNo>197603633099</RegNo>
+    <RegNo2>6330099A</RegNo2>
+    <RegName>SYNTHETIC WARM BHD.</RegName>
+    <DateBR>16/09/1976</DateBR>
+    <ConstitutionType>24</ConstitutionType>
+    <NumberofDependants>0</NumberofDependants>
+    <MonthlyExpenses>0</MonthlyExpenses>
+    <AnnualIncome>0</AnnualIncome>
+    <NumberofDirectors>0</NumberofDirectors>
+    <NumberofEmployees>0</NumberofEmployees>
+    <BusinessCouCode>MY</BusinessCouCode>
+    <BusinessStaCode />
+    <EntityCode />
+    <TradeEntityCode />
+    <Warning />
+  </Subject>
+  <InterestParties />
+  <ReportTitle> <![CDATA[COMMERCIAL ESSENTIAL REPORT]]></ReportTitle>
+  <IsNonBureauUsr>Y</IsNonBureauUsr>
+  <ReqTime>18/09/2025 09:55:47</ReqTime>
+  <TradeAvailable>N</TradeAvailable>
+  <PurposeDesc>CREDIT REVIEW</PurposeDesc>
+  <ConstitutionTypeDesc>Company</ConstitutionTypeDesc>
+  <BusinessCouCodeDesc>MALAYSIA</BusinessCouCodeDesc>
+  <FICode />
+  <HideSME>N</HideSME>
+  <DCheqsAvailability>Y</DCheqsAvailability>
+  <Report>
+    <BIRIndicator>Further due diligence is required</BIRIndicator>
+    <SMEProfile>
+      <RegNo>6330099A</RegNo>
+      <NewRegNo>197603633099</NewRegNo>
+      <RegName>SYNTHETIC WARM BHD.</RegName>
+      <OldName>OLD SYNTHETIC BBB BHD.</OldName>
+      <NameChangeDate>(16/09/1976)</NameChangeDate>
+      <ConstitutionTypeStdCode />
+      <ConstitutionType>COMPANY</ConstitutionType>
+      <DateBR>16/09/1976</DateBR>
+      <DateFBR>-</DateFBR>
+      <Sts>Existing</Sts>
+      <StsStdCode>E</StsStdCode>
+      <CompanyType>Limited By Shares</CompanyType>
+      <CompanyTypeStdCode>S</CompanyTypeStdCode>
+      <CompanyStatus>BERHAD</CompanyStatus>
+      <BusinessDescription>READY TO EAT FOOD, SNACKS, FOOD CATERERS, MINERAL AND ARTIFICIAL WATER AND OTHER DRINKS TO TAYLOR MADE FOR THE POLICE AND THE ARMY OR ANY OTHER BUSINESSES WHICH CAN BE CONVENIENTLY AND GOODS.</BusinessDescription>
+      <LastUpdated>10/07/2025</LastUpdated>
+      <CouCode>MALAYSIA</CouCode>
+      <CouCodeStdCode>MAL</CouCodeStdCode>
+      <CorpStsCode>-</CorpStsCode>
+      <CorpStsDesc>-</CorpStsDesc>
+      <IndSecCode>-</IndSecCode>
+      <IndSecDesc>-</IndSecDesc>
+      <ResidencyCode>-</ResidencyCode>
+      <ResidencyDesc>-</ResidencyDesc>
+      <RegAdd1>1/2,TAMAN BUKIT PELANGI</RegAdd1>
+      <RegTown>BATU PAHAT</RegTown>
+      <RegPostCode>83000</RegPostCode>
+      <RegStateCode>Johor</RegStateCode>
+      <RegStaCodeStdCode>J</RegStaCodeStdCode>
+      <RegCouCode>MALAYSIA</RegCouCode>
+      <RegCouCodeStdCode>MAL</RegCouCodeStdCode>
+      <BusinessAdd1>2/2,TAMAN BUKIT PELANGI</BusinessAdd1>
+      <BusinessTown>BATU PAHAT</BusinessTown>
+      <BusinessPostCode>83000</BusinessPostCode>
+      <BusinessStaCode>Johor</BusinessStaCode>
+      <BusinessStaCodeStdCode>J</BusinessStaCodeStdCode>
+      <BusinessCouCode>MALAYSIA</BusinessCouCode>
+      <BusinessCouCodeStdCode>MAL</BusinessCouCodeStdCode>
+      <StartDate>-</StartDate>
+      <ClosingDate>-</ClosingDate>
+      <AmendmentDate>-</AmendmentDate>
+      <RegExpiryDate>-</RegExpiryDate>
+      <Ownership>-</Ownership>
+      <Rating>-</Rating>
+      <CreditRating>
+        <pd>-</pd>
+        <pctl>-</pctl>
+      </CreditRating>
+      <Summary>
+        <Legal>
+          <FraudAlert>-</FraudAlert>
+          <ActionTaken>-</ActionTaken>
+          <ExceddTerms>-</ExceddTerms>
+          <LowDET>-</LowDET>
+          <AverageDET>-</AverageDET>
+          <HighestDET>-</HighestDET>
+        </Legal>
+        <LoanSummary>
+          <Arrears>-</Arrears>
+          <Application>-</Application>
+          <ApprovedLoan>-</ApprovedLoan>
+          <SettledLoan>-</SettledLoan>
+          <DishonoredCheque>-</DishonoredCheque>
+        </LoanSummary>
+      </Summary>
+      <Branches>
+        <Branch>
+          <Information>-</Information>
+          <Add1>-</Add1>
+          <Add2 />
+          <Add3 />
+          <Add4 />
+          <Town />
+          <PostCode />
+          <StaCode />
+          <StaCodeStdCode />
+          <CouCode />
+          <CouCodeStdCode />
+        </Branch>
+      </Branches>
+      <BusinessSectors>
+        <BusinessSector>
+          <Priority>3</Priority>
+          <SectorDescription>Manufacture of soft drinks</SectorDescription>
+          <BusinessCode>11041</BusinessCode>
+          <Msic />
+        </BusinessSector>
+        <BusinessSector>
+          <Priority>3</Priority>
+          <SectorDescription>Manufacture of other chemical products n.e.c.</SectorDescription>
+          <BusinessCode>20299</BusinessCode>
+          <Msic />
+        </BusinessSector>
+        <BusinessSector>
+          <Priority>3</Priority>
+          <SectorDescription>Import of other food products n.e.c.</SectorDescription>
+          <BusinessCode>10799i</BusinessCode>
+          <Msic />
+        </BusinessSector>
+        <BusinessSector>
+          <Priority>3</Priority>
+          <SectorDescription>Food or beverage, food and beverage preparation in market stalls/hawkers</SectorDescription>
+          <BusinessCode>56107</BusinessCode>
+          <Msic />
+        </BusinessSector>
+      </BusinessSectors>
+      <CurrentOwners>
+        <CurrentOwner>
+          <Name>-</Name>
+          <Add1>-</Add1>
+          <Add2 />
+          <Add3 />
+          <Add4 />
+          <Town />
+          <PostCode />
+          <StaCodeStdCode />
+          <StaCode />
+          <CouCodeStdCode />
+          <CouCode />
+          <IDNo1>-</IDNo1>
+          <IDNo2>-</IDNo2>
+          <DateBR>-</DateBR>
+          <Race>-</Race>
+          <Gender>-</Gender>
+          <Position>-</Position>
+          <Nationality>-</Nationality>
+          <DateJoin>-</DateJoin>
+          <IdCardType>-</IdCardType>
+        </CurrentOwner>
+      </CurrentOwners>
+      <PrevOwners>
+        <PrevOwner>
+          <Name>-</Name>
+          <Add1>-</Add1>
+          <Add2 />
+          <Add3 />
+          <Add4 />
+          <Town />
+          <PostCode />
+          <StaCode />
+          <StaCodeStdCode />
+          <CouCode />
+          <CouCodeStdCode />
+          <IDNo1>-</IDNo1>
+          <IDNo2>-</IDNo2>
+          <DateBR>-</DateBR>
+          <Race>-</Race>
+          <Gender>-</Gender>
+          <Position>-</Position>
+          <Nationality>-</Nationality>
+          <DateJoin>-</DateJoin>
+          <DateResigned>-</DateResigned>
+          <ReasonResigned>-</ReasonResigned>
+          <IdCardType>-</IdCardType>
+        </PrevOwner>
+      </PrevOwners>
+      <Directors>
+        <Director>
+          <Name>SYNTHETIC WARM INDIVIDUAL 2</Name>
+          <IDIC>760129050003</IDIC>
+          <Add1>1/2 OLD TRAFFORD RESIDENCE</Add1>
+          <Add2>JALAN SEGAMAT 3/14</Add2>
+          <Add3>TAMAN SEGAMAT</Add3>
+          <Town>JOHOR BAHRU</Town>
+          <PostCode>85000</PostCode>
+          <State>Johor</State>
+          <StateStdCode>J</StateStdCode>
+          <Designation>Director</Designation>
+          <DesignationCode>D</DesignationCode>
+          <StartDate>16/09/1996</StartDate>
+          <IdType>MK</IdType>
+          <IdTypeDesc>NEW IC</IdTypeDesc>
+          <DOB>29/01/1976</DOB>
+        </Director>
+        <Director>
+          <Name>SYNTHETIC WARM INDIVIDUAL 1</Name>
+          <IDIC>060509106789</IDIC>
+          <Add1>D-08-08 SKY GARDEN RESIDENCES</Add1>
+          <Add2>JALAN SYNTHETIC 1/21</Add2>
+          <Add3>TAMAN SUNSURIA JIO</Add3>
+          <Town>JOHOR BAHRU</Town>
+          <PostCode>82200</PostCode>
+          <State>Johor</State>
+          <StateStdCode>J</StateStdCode>
+          <Designation>Director</Designation>
+          <DesignationCode>D</DesignationCode>
+          <StartDate>16/09/2022</StartDate>
+          <IdType>MK</IdType>
+          <IdTypeDesc>NEW IC</IdTypeDesc>
+          <DOB>09/05/1986</DOB>
+        </Director>
+        <Director>
+          <Name>SYNTHETIC WARM INDIVIDUAL 3</Name>
+          <IDIC>760130050005</IDIC>
+          <Add1>1/2 CHARLTON HILL</Add1>
+          <Add2>JALAN SEGAMAT 3/21</Add2>
+          <Add3>TAMAN SEGAMAT</Add3>
+          <Town>JOHOR BAHRU</Town>
+          <PostCode>85000</PostCode>
+          <State>Johor</State>
+          <StateStdCode>J</StateStdCode>
+          <Designation>Director</Designation>
+          <DesignationCode>D</DesignationCode>
+          <StartDate>16/09/1996</StartDate>
+          <IdType>MK</IdType>
+          <IdTypeDesc>NEW IC</IdTypeDesc>
+          <DOB>30/01/1976</DOB>
+        </Director>
+        <Director>
+          <Name>SYNTHETIC WARM INDIVIDUAL 4</Name>
+          <IDIC>780131050007</IDIC>
+          <Add1>3/4 CANTONA SKY</Add1>
+          <Add2>JALAN SEGAMAT 89/100</Add2>
+          <Add3>TAMAN SEGAMAT</Add3>
+          <Town>JOHOR BAHRU</Town>
+          <PostCode>85000</PostCode>
+          <State>Johor</State>
+          <StateStdCode>J</StateStdCode>
+          <Designation>Secretary</Designation>
+          <DesignationCode>S</DesignationCode>
+          <StartDate>16/09/2022</StartDate>
+          <IdType>MK</IdType>
+          <IdTypeDesc>NEW IC</IdTypeDesc>
+          <DOB>31/01/1978</DOB>
+        </Director>
+      </Directors>
+      <Shareholders>
+        <Shareholder>
+          <Name>SYNTHETIC WARM INDIVIDUAL 1</Name>
+          <IDIC>060509106789</IDIC>
+          <Share>2,000,000.00</Share>
+          <IdType>MK</IdType>
+          <IdTypeDesc>NEW IC</IdTypeDesc>
+          <SharePercentage>35.09</SharePercentage>
+          <DOB>09/05/1986</DOB>
+        </Shareholder>
+        <Shareholder>
+          <Name>SYNTHETIC WARM SHAREHOLDER 1</Name>
+          <IDIC>197603633099</IDIC>
+          <Share>1,500,000.00</Share>
+          <IdType>MK</IdType>
+          <IdTypeDesc>NEW IC</IdTypeDesc>
+          <SharePercentage>26.32</SharePercentage>
+          <DOB>08/01/1977</DOB>
+        </Shareholder>
+        <Shareholder>
+          <Name>SYNTHETIC WARM SHAREHOLDER 2</Name>
+          <IDIC>194102000003</IDIC>
+          <Share>1,500,000.00</Share>
+          <IdType>C</IdType>
+          <IdTypeDesc>COMPANY NO - LOCAL</IdTypeDesc>
+          <SharePercentage>26.32</SharePercentage>
+          <DOB>01/01/2000</DOB>
+        </Shareholder>
+        <Shareholder>
+          <Name>SYNTHETIC WARM SHAREHOLDER 3</Name>
+          <IDIC>194602000073</IDIC>
+          <Share>700,000.00</Share>
+          <IdType>MK</IdType>
+          <IdTypeDesc>NEW IC</IdTypeDesc>
+          <SharePercentage>12.28</SharePercentage>
+          <DOB>07/02/1981</DOB>
+        </Shareholder>
+      </Shareholders>
+      <ShareCapital>
+        <Authorized>
+          <Amount>5,700,000.00</Amount>
+          <Capitals>
+            <Capital>
+              <Type>ORDINARY</Type>
+              <Amount>5,000,000.00</Amount>
+              <Divided>5,000,000</Divided>
+              <NominalValue>100.00</NominalValue>
+            </Capital>
+            <Capital>
+              <Type>PREFERENCE</Type>
+              <Amount>700,000.00</Amount>
+              <Divided>700,000</Divided>
+              <NominalValue>100.00</NominalValue>
+            </Capital>
+            <Capital>
+              <Type>OTHER</Type>
+              <Amount>0.00</Amount>
+              <Divided>0</Divided>
+              <NominalValue>0.00</NominalValue>
+            </Capital>
+          </Capitals>
+        </Authorized>
+        <Issued>
+          <Amount>5,700,000.00</Amount>
+          <Capitals>
+            <Capital>
+              <Type>ORDINARY</Type>
+              <Amount>5,000,000.00</Amount>
+              <Divided>0</Divided>
+              <NominalValue>100.00</NominalValue>
+            </Capital>
+            <Capital>
+              <Type>PREFERENCE</Type>
+              <Amount>700,000.00</Amount>
+              <Divided>0</Divided>
+              <NominalValue>100.00</NominalValue>
+            </Capital>
+            <Capital>
+              <Type>OTHER</Type>
+              <Amount>0.00</Amount>
+              <Divided>0</Divided>
+              <NominalValue>0.00</NominalValue>
+            </Capital>
+          </Capitals>
+        </Issued>
+      </ShareCapital>
+      <Charges>
+        <Charge>
+          <ChargeNo>001</ChargeNo>
+          <TotalAmt>10,000,000.00</TotalAmt>
+          <DateCreation>03/06/2016</DateCreation>
+          <Status>Fully Satisfied</Status>
+          <StatusStdCode>S</StatusStdCode>
+          <ChargeeID>MALAYAN BANKING BERHAD</ChargeeID>
+        </Charge>
+        <Charge>
+          <ChargeNo>002</ChargeNo>
+          <TotalAmt>20,000,000.00</TotalAmt>
+          <DateCreation>03/06/2016</DateCreation>
+          <Status>Partly Satisfied</Status>
+          <StatusStdCode>P</StatusStdCode>
+          <ChargeeID>MALAYAN BANKING BERHAD</ChargeeID>
+        </Charge>
+        <Charge>
+          <ChargeNo>003</ChargeNo>
+          <TotalAmt>10,000,000.00</TotalAmt>
+          <DateCreation>03/06/2024</DateCreation>
+          <Status>Fully Satisfied</Status>
+          <StatusStdCode>S</StatusStdCode>
+          <ChargeeID>MALAYAN BANKING BERHAD</ChargeeID>
+        </Charge>
+        <Charge>
+          <ChargeNo>2023</ChargeNo>
+          <TotalAmt>45,000,000.00</TotalAmt>
+          <DateCreation>06/06/2020</DateCreation>
+          <Status>Unsatisfied</Status>
+          <StatusStdCode>U</StatusStdCode>
+          <ChargeeID>HONG LEONG BANK  BERHAD</ChargeeID>
+        </Charge>
+        <Charge>
+          <ChargeNo>2024</ChargeNo>
+          <TotalAmt>45,000,000.00</TotalAmt>
+          <DateCreation>06/06/2020</DateCreation>
+          <Status>Unsatisfied</Status>
+          <StatusStdCode>U</StatusStdCode>
+          <ChargeeID>HONG LEONG BANK  BERHAD</ChargeeID>
+        </Charge>
+        <Charge>
+          <ChargeNo>2025</ChargeNo>
+          <TotalAmt>450,000,200.00</TotalAmt>
+          <DateCreation>06/06/2024</DateCreation>
+          <Status>Partly Satisfied</Status>
+          <StatusStdCode>P</StatusStdCode>
+          <ChargeeID>HONG LEONG BANK  BERHAD</ChargeeID>
+        </Charge>
+      </Charges>
+      <Financials>
+        <Financial>
+          <AuditFirm>
+            <AuditFirmName>AMIR FITRI FARISAL HARRYMEN</AuditFirmName>
+            <Address1>NO. 3</Address1>
+            <Address2>JALAN SHIBUYA 4/8</Address2>
+            <Address3>BANDAR SHIBUYAY</Address3>
+            <Postcode>47100</Postcode>
+            <Town>PUCHONG</Town>
+          </AuditFirm>
+          <ExemptPrivateCompany>-</ExemptPrivateCompany>
+          <FinancialYear>31/12/2024</FinancialYear>
+          <UnqualifiedReport>Y</UnqualifiedReport>
+          <ConsolidatedAccounts>Y</ConsolidatedAccounts>
+          <DateOfTabling>30/06/2025</DateOfTabling>
+          <BalanceSheet>
+            <NonCurrentAssets>1,000,001.00</NonCurrentAssets>
+            <CurrentAssets>26,700.00</CurrentAssets>
+            <NonCurrentLiabilities>1,756,500.00</NonCurrentLiabilities>
+            <CurrentLiabilities>17,564,700.00</CurrentLiabilities>
+            <ShareCapital>1,786,900.00</ShareCapital>
+            <Reserves>12,332,200.00</Reserves>
+            <RetainedEarning>486,999.00</RetainedEarning>
+            <MinorityInterests>17,886,500.00</MinorityInterests>
+            <ShareApplicationAcct>6,899,700.00</ShareApplicationAcct>
+            <SharePremiumAndOthReserves>7,456,300.00</SharePremiumAndOthReserves>
+            <TotalAssets>1,026,701.00</TotalAssets>
+            <TotalLiabilities>19,321,200.00</TotalLiabilities>
+            <TotalEquity>-18,294,499.00</TotalEquity>
+          </BalanceSheet>
+          <Income>
+            <Revenue>1,700,000.00</Revenue>
+            <ProfitBeforeTax>785,000.00</ProfitBeforeTax>
+            <ProfitAfterTax>785,000.00</ProfitAfterTax>
+            <NetDividend>1,690,000.00</NetDividend>
+            <MinorityInterests>3.00</MinorityInterests>
+          </Income>
+          <FinancialRatio>
+            <CurrentRatio>0.0</CurrentRatio>
+            <GearingRatio>-1.1</GearingRatio>
+            <ROCE>76.5</ROCE>
+            <TurnoverRatio>1.7</TurnoverRatio>
+            <EarningsPerShare>0.4</EarningsPerShare>
+            <ProfitBeforeTaxMargin>46.2</ProfitBeforeTaxMargin>
+            <ProfitAfterTaxMargin>46.2</ProfitAfterTaxMargin>
+            <DebtRatio>18.8</DebtRatio>
+            <CurrentAssetsTurnover>63.7</CurrentAssetsTurnover>
+            <NonCurrentAssetsTurnover>1.7</NonCurrentAssetsTurnover>
+            <ReturnOnAsset>0.8</ReturnOnAsset>
+            <ReturnOnEquity>-0.0</ReturnOnEquity>
+            <ReturnOnSales>0.5</ReturnOnSales>
+            <WorkingCapitalDays>-3765.5</WorkingCapitalDays>
+            <ShareholdersEquityRatio>-17.8</ShareholdersEquityRatio>
+            <DebtToCapitalRatio>18.8</DebtToCapitalRatio>
+            <RevenueTrend>-71.2</RevenueTrend>
+            <NetIncomeTrend>-20.3</NetIncomeTrend>
+            <TotalAssetsTrend>2.6</TotalAssetsTrend>
+            <TotalLiabilitiesTrend>9900.0</TotalLiabilitiesTrend>
+            <NetWorthTrend>-2366.8</NetWorthTrend>
+            <DividendPayOutRatio>2.2</DividendPayOutRatio>
+            <DividendPerShare>0.9</DividendPerShare>
+          </FinancialRatio>
+        </Financial>
+        <Financial>
+          <AuditFirm>
+            <AuditFirmName>AMIR FITRI FARISAL HARRYMEN</AuditFirmName>
+            <Address1>NO. 3</Address1>
+            <Address2>JALAN SHIBUYA 4/8</Address2>
+            <Address3>BANDAR SHIBUYA</Address3>
+            <Postcode>47100</Postcode>
+            <Town>PUCHONG</Town>
+          </AuditFirm>
+          <ExemptPrivateCompany>-</ExemptPrivateCompany>
+          <FinancialYear>31/12/2023</FinancialYear>
+          <UnqualifiedReport>Y</UnqualifiedReport>
+          <ConsolidatedAccounts>Y</ConsolidatedAccounts>
+          <DateOfTabling>30/06/2024</DateOfTabling>
+          <BalanceSheet>
+            <NonCurrentAssets>1,000,000.00</NonCurrentAssets>
+            <CurrentAssets>267.00</CurrentAssets>
+            <NonCurrentLiabilities>17,565.00</NonCurrentLiabilities>
+            <CurrentLiabilities>175,647.00</CurrentLiabilities>
+            <ShareCapital>17,869.00</ShareCapital>
+            <Reserves>123,322.00</Reserves>
+            <RetainedEarning>486,999.00</RetainedEarning>
+            <MinorityInterests>178,865.00</MinorityInterests>
+            <ShareApplicationAcct>68,997.00</ShareApplicationAcct>
+            <SharePremiumAndOthReserves>74,563.00</SharePremiumAndOthReserves>
+            <TotalAssets>1,000,267.00</TotalAssets>
+            <TotalLiabilities>193,212.00</TotalLiabilities>
+            <TotalEquity>807,055.00</TotalEquity>
+          </BalanceSheet>
+          <Income>
+            <Revenue>5,900,000.00</Revenue>
+            <ProfitBeforeTax>985,000.00</ProfitBeforeTax>
+            <ProfitAfterTax>985,000.00</ProfitAfterTax>
+            <NetDividend>5,860,000.00</NetDividend>
+            <MinorityInterests>3.00</MinorityInterests>
+          </Income>
+          <FinancialRatio>
+            <CurrentRatio>0.0</CurrentRatio>
+            <GearingRatio>0.2</GearingRatio>
+            <ROCE>98.5</ROCE>
+            <TurnoverRatio>5.9</TurnoverRatio>
+            <EarningsPerShare>55.1</EarningsPerShare>
+            <ProfitBeforeTaxMargin>16.7</ProfitBeforeTaxMargin>
+            <ProfitAfterTaxMargin>16.7</ProfitAfterTaxMargin>
+            <DebtRatio>0.2</DebtRatio>
+            <CurrentAssetsTurnover>22097.0</CurrentAssetsTurnover>
+            <NonCurrentAssetsTurnover>5.9</NonCurrentAssetsTurnover>
+            <ReturnOnAsset>1.0</ReturnOnAsset>
+            <ReturnOnEquity>1.2</ReturnOnEquity>
+            <ReturnOnSales>0.2</ReturnOnSales>
+            <WorkingCapitalDays>-10.8</WorkingCapitalDays>
+            <ShareholdersEquityRatio>0.8</ShareholdersEquityRatio>
+            <DebtToCapitalRatio>0.2</DebtToCapitalRatio>
+            <RevenueTrend>20.4</RevenueTrend>
+            <NetIncomeTrend>11.3</NetIncomeTrend>
+            <TotalAssetsTrend>-52.1</TotalAssetsTrend>
+            <TotalLiabilitiesTrend>-86.4</TotalLiabilitiesTrend>
+            <NetWorthTrend>21.4</NetWorthTrend>
+            <DividendPayOutRatio>5.9</DividendPayOutRatio>
+            <DividendPerShare>327.9</DividendPerShare>
+          </FinancialRatio>
+        </Financial>
+        <Financial>
+          <AuditFirm>
+            <AuditFirmName>AMIR FITRI FARISAL HARRYMEN</AuditFirmName>
+            <Address1>NO. 3</Address1>
+            <Address2>JALAN SHIBUYA 4/8</Address2>
+            <Address3>BANDAR SHIBUYA</Address3>
+            <Postcode>47100</Postcode>
+            <Town>PUCHONG</Town>
+          </AuditFirm>
+          <ExemptPrivateCompany>-</ExemptPrivateCompany>
+          <FinancialYear>31/12/2022</FinancialYear>
+          <UnqualifiedReport>Y</UnqualifiedReport>
+          <ConsolidatedAccounts>Y</ConsolidatedAccounts>
+          <DateOfTabling>30/06/2023</DateOfTabling>
+          <BalanceSheet>
+            <NonCurrentAssets>2,008,285.00</NonCurrentAssets>
+            <CurrentAssets>80,000.00</CurrentAssets>
+            <NonCurrentLiabilities>657,646.00</NonCurrentLiabilities>
+            <CurrentLiabilities>765,744.00</CurrentLiabilities>
+            <ShareCapital>78,754.00</ShareCapital>
+            <Reserves>63,223.00</Reserves>
+            <RetainedEarning>457,464.00</RetainedEarning>
+            <MinorityInterests>65,454.00</MinorityInterests>
+            <ShareApplicationAcct>2,021.00</ShareApplicationAcct>
+            <SharePremiumAndOthReserves>9,675.00</SharePremiumAndOthReserves>
+            <TotalAssets>2,088,285.00</TotalAssets>
+            <TotalLiabilities>1,423,390.00</TotalLiabilities>
+            <TotalEquity>664,895.00</TotalEquity>
+          </BalanceSheet>
+          <Income>
+            <Revenue>4,900,000.00</Revenue>
+            <ProfitBeforeTax>885,000.00</ProfitBeforeTax>
+            <ProfitAfterTax>885,000.00</ProfitAfterTax>
+            <NetDividend>4,870,000.00</NetDividend>
+            <MinorityInterests>3.00</MinorityInterests>
+          </Income>
+          <FinancialRatio>
+            <CurrentRatio>0.1</CurrentRatio>
+            <GearingRatio>2.1</GearingRatio>
+            <ROCE>42.4</ROCE>
+            <TurnoverRatio>2.3</TurnoverRatio>
+            <EarningsPerShare>11.2</EarningsPerShare>
+            <ProfitBeforeTaxMargin>18.1</ProfitBeforeTaxMargin>
+            <ProfitAfterTaxMargin>18.1</ProfitAfterTaxMargin>
+            <DebtRatio>0.7</DebtRatio>
+            <CurrentAssetsTurnover>61.2</CurrentAssetsTurnover>
+            <NonCurrentAssetsTurnover>2.4</NonCurrentAssetsTurnover>
+            <ReturnOnAsset>0.4</ReturnOnAsset>
+            <ReturnOnEquity>1.3</ReturnOnEquity>
+            <ReturnOnSales>0.2</ReturnOnSales>
+            <WorkingCapitalDays>-51.1</WorkingCapitalDays>
+            <ShareholdersEquityRatio>0.3</ShareholdersEquityRatio>
+            <DebtToCapitalRatio>0.7</DebtToCapitalRatio>
+            <RevenueTrend>25.6</RevenueTrend>
+            <NetIncomeTrend>12.7</NetIncomeTrend>
+            <TotalAssetsTrend>894.4</TotalAssetsTrend>
+            <TotalLiabilitiesTrend>1679.2</TotalLiabilitiesTrend>
+            <NetWorthTrend>411.5</NetWorthTrend>
+            <DividendPayOutRatio>5.5</DividendPayOutRatio>
+            <DividendPerShare>61.8</DividendPerShare>
+          </FinancialRatio>
+        </Financial>
+        <Financial>
+          <AuditFirm>
+            <AuditFirmName>AMIR FITRI FARISAL HARRYMEN</AuditFirmName>
+            <Address1>NO. 3</Address1>
+            <Address2>JALAN SHIBUYA 4/8</Address2>
+            <Address3>BANDAR SHIBUYA</Address3>
+            <Postcode>47100</Postcode>
+            <Town>PUCHONG</Town>
+          </AuditFirm>
+          <ExemptPrivateCompany>-</ExemptPrivateCompany>
+          <FinancialYear>31/12/2021</FinancialYear>
+          <UnqualifiedReport>Y</UnqualifiedReport>
+          <ConsolidatedAccounts>Y</ConsolidatedAccounts>
+          <DateOfTabling>30/06/2022</DateOfTabling>
+          <BalanceSheet>
+            <NonCurrentAssets>130,000.00</NonCurrentAssets>
+            <CurrentAssets>80,000.00</CurrentAssets>
+            <NonCurrentLiabilities>60,000.00</NonCurrentLiabilities>
+            <CurrentLiabilities>20,000.00</CurrentLiabilities>
+            <ShareCapital>40,000.00</ShareCapital>
+            <Reserves>30,000.00</Reserves>
+            <RetainedEarning>50,000.00</RetainedEarning>
+            <MinorityInterests>10,000.00</MinorityInterests>
+            <ShareApplicationAcct>5,433.00</ShareApplicationAcct>
+            <SharePremiumAndOthReserves>10,786.00</SharePremiumAndOthReserves>
+            <TotalAssets>210,000.00</TotalAssets>
+            <TotalLiabilities>80,000.00</TotalLiabilities>
+            <TotalEquity>130,000.00</TotalEquity>
+          </BalanceSheet>
+          <Income>
+            <Revenue>3,900,000.00</Revenue>
+            <ProfitBeforeTax>785,000.00</ProfitBeforeTax>
+            <ProfitAfterTax>785,000.00</ProfitAfterTax>
+            <NetDividend>3,880,000.00</NetDividend>
+            <MinorityInterests>3.00</MinorityInterests>
+          </Income>
+          <FinancialRatio>
+            <CurrentRatio>4.0</CurrentRatio>
+            <GearingRatio>0.6</GearingRatio>
+            <ROCE>373.8</ROCE>
+            <TurnoverRatio>18.6</TurnoverRatio>
+            <EarningsPerShare>19.6</EarningsPerShare>
+            <ProfitBeforeTaxMargin>20.1</ProfitBeforeTaxMargin>
+            <ProfitAfterTaxMargin>20.1</ProfitAfterTaxMargin>
+            <DebtRatio>0.4</DebtRatio>
+            <CurrentAssetsTurnover>48.8</CurrentAssetsTurnover>
+            <NonCurrentAssetsTurnover>30.0</NonCurrentAssetsTurnover>
+            <ReturnOnAsset>3.7</ReturnOnAsset>
+            <ReturnOnEquity>6.0</ReturnOnEquity>
+            <ReturnOnSales>0.2</ReturnOnSales>
+            <WorkingCapitalDays>5.6</WorkingCapitalDays>
+            <ShareholdersEquityRatio>0.6</ShareholdersEquityRatio>
+            <DebtToCapitalRatio>0.4</DebtToCapitalRatio>
+            <RevenueTrend>34.5</RevenueTrend>
+            <NetIncomeTrend>-11.3</NetIncomeTrend>
+            <TotalAssetsTrend>0.0</TotalAssetsTrend>
+            <TotalLiabilitiesTrend>-27.3</TotalLiabilitiesTrend>
+            <NetWorthTrend>30.0</NetWorthTrend>
+            <DividendPayOutRatio>4.9</DividendPayOutRatio>
+            <DividendPerShare>97.0</DividendPerShare>
+          </FinancialRatio>
+        </Financial>
+        <Financial>
+          <AuditFirm>
+            <AuditFirmName>AMIR FITRI FARISAL HARRYMEN</AuditFirmName>
+            <Address1>NO. 3</Address1>
+            <Address2>JALAN SHIBUYA 4/8</Address2>
+            <Address3>BANDAR SHIBUYA</Address3>
+            <Postcode>47100</Postcode>
+            <Town>PUCHONG</Town>
+          </AuditFirm>
+          <ExemptPrivateCompany>-</ExemptPrivateCompany>
+          <FinancialYear>31/12/2020</FinancialYear>
+          <UnqualifiedReport>Y</UnqualifiedReport>
+          <ConsolidatedAccounts>Y</ConsolidatedAccounts>
+          <DateOfTabling>30/06/2021</DateOfTabling>
+          <BalanceSheet>
+            <NonCurrentAssets>80,000.00</NonCurrentAssets>
+            <CurrentAssets>130,000.00</CurrentAssets>
+            <NonCurrentLiabilities>50,000.00</NonCurrentLiabilities>
+            <CurrentLiabilities>60,000.00</CurrentLiabilities>
+            <ShareCapital>10,000.00</ShareCapital>
+            <Reserves>20,000.00</Reserves>
+            <RetainedEarning>40,000.00</RetainedEarning>
+            <MinorityInterests>30,000.00</MinorityInterests>
+            <ShareApplicationAcct>975.00</ShareApplicationAcct>
+            <SharePremiumAndOthReserves>678.00</SharePremiumAndOthReserves>
+            <TotalAssets>210,000.00</TotalAssets>
+            <TotalLiabilities>110,000.00</TotalLiabilities>
+            <TotalEquity>100,000.00</TotalEquity>
+          </BalanceSheet>
+          <Income>
+            <Revenue>2,900,000.00</Revenue>
+            <ProfitBeforeTax>885,000.00</ProfitBeforeTax>
+            <ProfitAfterTax>885,000.00</ProfitAfterTax>
+            <NetDividend>2,890,000.00</NetDividend>
+            <MinorityInterests>3.00</MinorityInterests>
+          </Income>
+          <FinancialRatio>
+            <CurrentRatio>2.2</CurrentRatio>
+            <GearingRatio>1.1</GearingRatio>
+            <ROCE>421.4</ROCE>
+            <TurnoverRatio>13.8</TurnoverRatio>
+            <EarningsPerShare>88.5</EarningsPerShare>
+            <ProfitBeforeTaxMargin>30.5</ProfitBeforeTaxMargin>
+            <ProfitAfterTaxMargin>30.5</ProfitAfterTaxMargin>
+            <DebtRatio>0.5</DebtRatio>
+            <CurrentAssetsTurnover>22.3</CurrentAssetsTurnover>
+            <NonCurrentAssetsTurnover>36.2</NonCurrentAssetsTurnover>
+            <ReturnOnAsset>4.2</ReturnOnAsset>
+            <ReturnOnEquity>8.8</ReturnOnEquity>
+            <ReturnOnSales>0.3</ReturnOnSales>
+            <WorkingCapitalDays>8.8</WorkingCapitalDays>
+            <ShareholdersEquityRatio>0.5</ShareholdersEquityRatio>
+            <DebtToCapitalRatio>0.5</DebtToCapitalRatio>
+            <RevenueTrend>-</RevenueTrend>
+            <NetIncomeTrend>-</NetIncomeTrend>
+            <TotalAssetsTrend>-</TotalAssetsTrend>
+            <TotalLiabilitiesTrend>-</TotalLiabilitiesTrend>
+            <NetWorthTrend>-</NetWorthTrend>
+            <DividendPayOutRatio>3.3</DividendPayOutRatio>
+            <DividendPerShare>289.0</DividendPerShare>
+          </FinancialRatio>
+        </Financial>
+      </Financials>
+      <TradeCredits />
+      <CRSEntities>
+        <CRSEntity>
+          <Add>-</Add>
+          <PostCode>-</PostCode>
+          <DateCreated>-</DateCreated>
+        </CRSEntity>
+      </CRSEntities>
+      <LoanInfo>
+        <Warning />
+        <TotalBal />
+        <TotalLimit />
+      </LoanInfo>
+      <DCheques>
+        <DCheque>
+          <BankNo>-</BankNo>
+          <AccNo>-</AccNo>
+          <IssuanceDate>-</IssuanceDate>
+          <Remarks>-</Remarks>
+        </DCheque>
+      </DCheques>
+      <DChequesOwn>
+        <DChequeOwn>
+          <FICode>-</FICode>
+          <AccNo>-</AccNo>
+          <IssueDt>-</IssueDt>
+          <ChequeNo>-</ChequeNo>
+          <Amt>-</Amt>
+          <Remarks>-</Remarks>
+        </DChequeOwn>
+      </DChequesOwn>
+      <Litigation>
+        <Address>-</Address>
+        <WindingCompanies>
+          <WindingCompany>
+            <CaseNo>AA-WARM-WFINM-4/2025</CaseNo>
+            <SubjectRole>DEFENDANT</SubjectRole>
+            <Duration>7</Duration>
+            <EstimateDuration>14</EstimateDuration>
+            <CaseStages>
+              <CaseStage>
+                <StageCode>WWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUP</StageCode>
+                <StageDesc>WINDING UP PETITION</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BN</StageCode>
+                <StageDesc>BANKRUPTCY NOTICE</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUBJUD</StageCode>
+                <StageDesc>JUDGEMENT</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BCP</StageCode>
+                <StageDesc>CREDITORS PETITION</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BJUD</StageCode>
+                <StageDesc>JUDGEMENT</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUO</StageCode>
+                <StageDesc>WINDING UP ORDER</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUAOR</StageCode>
+                <StageDesc>APPOINTMENT OF OR</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BARO</StageCode>
+                <StageDesc>ADJUDICATION OR RECEIVING ORDER</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BAOO</StageCode>
+                <StageDesc>APPOINTMENT OF OR</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFM</StageCode>
+                <StageDesc>FIRST MEETING</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFM</StageCode>
+                <StageDesc>FIRST MEETING</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFINM</StageCode>
+                <StageDesc>FINAL MEETING</StageDesc>
+                <Date>01/02/2025</Date>
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFINM</StageCode>
+                <StageDesc>FINAL MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDIS</StageCode>
+                <StageDesc>DISSOLVED(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDIS</StageCode>
+                <StageDesc>DISCHARGE(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>AUC</StageCode>
+                <StageDesc>AUCTION(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BEFILING</StageCode>
+                <StageDesc>eCause List(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WEFILING</StageCode>
+                <StageDesc>eCause List(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+            </CaseStages>
+            <Court>HIGH COURT</Court>
+            <City>ALOR SETAR</City>
+            <State>KEDAH</State>
+            <Amount>100000</Amount>
+            <PlaintiffName>FEEKON BANK LTD</PlaintiffName>
+            <PlaintiffID>195901000052 (3407K)</PlaintiffID>
+            <PlaintiffAddr>18th Floor, Sun Wah Tower, 115 Nguyen Hue Boulevard, District 1, Ho Chi Minh City</PlaintiffAddr>
+            <DefendantName>SYNTHETIC WARM BHD.</DefendantName>
+            <DefendantID>197603633099 (6330099A)</DefendantID>
+            <DefendantAddr>1/2,JALAN BATU PAHAT,83000 BATU PAHAT,JOHOR</DefendantAddr>
+            <SolicitorName>ABUL'S CHAMBER</SolicitorName>
+            <SolicitorAddr>NO.1435, TAMAN SULTAN BADLISHAH, JALAN PEGAWAI, 05050 Alor Setar, Kedah</SolicitorAddr>
+            <SolicitorTelNo>013-2004210</SolicitorTelNo>
+            <SolicitorRefNo>WFINM117</SolicitorRefNo>
+            <LiquidatorName>SYNTHETIC LIQUIDATOR WFINM</LiquidatorName>
+            <LiquidatorAddr>-</LiquidatorAddr>
+            <LiquidatorTelNo>0388880009</LiquidatorTelNo>
+            <LiquidatorRefNo>LIQWFINM117</LiquidatorRefNo>
+            <Sources>
+              <Source>
+                <StageCode>WFINM</StageCode>
+                <StageDesc>FINAL MEETING</StageDesc>
+                <StageSeq>9</StageSeq>
+                <Publication>MALAYSIA DAILY</Publication>
+                <Date>09/07/2025</Date>
+                <AccessDate>21/07/2025</AccessDate>
+                <JudgementDate />
+              </Source>
+            </Sources>
+            <Remarks>-</Remarks>
+            <EntityType>Defendant</EntityType>
+            <OCRStatus>CP</OCRStatus>
+            <Status />
+            <StatusDate />
+            <OrderDate />
+            <MeetingDate>01/02/2025</MeetingDate>
+            <PetitionDate />
+            <HearingDate />
+            <CaseDate />
+            <LitigationType>WFINM</LitigationType>
+            <AddressOfProperty />
+            <ParticularsTitleOfProperty />
+            <ReservePrice />
+            <AuctionDate />
+            <SettlementDate />
+            <DissolutionDate />
+            <CaseStmt>-</CaseStmt>
+          </WindingCompany>
+          <WindingCompany>
+            <CaseNo>AA-WARM-WUAOR-5/2024</CaseNo>
+            <SubjectRole>DEFENDANT</SubjectRole>
+            <Duration>8</Duration>
+            <EstimateDuration>14</EstimateDuration>
+            <CaseStages>
+              <CaseStage>
+                <StageCode>WWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUP</StageCode>
+                <StageDesc>WINDING UP PETITION</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BN</StageCode>
+                <StageDesc>BANKRUPTCY NOTICE</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUBJUD</StageCode>
+                <StageDesc>JUDGEMENT</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BCP</StageCode>
+                <StageDesc>CREDITORS PETITION</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BJUD</StageCode>
+                <StageDesc>JUDGEMENT</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUO</StageCode>
+                <StageDesc>WINDING UP ORDER</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUAOR</StageCode>
+                <StageDesc>APPOINTMENT OF OR</StageDesc>
+                <Date>09/01/2025</Date>
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BARO</StageCode>
+                <StageDesc>ADJUDICATION OR RECEIVING ORDER(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BAOO</StageCode>
+                <StageDesc>APPOINTMENT OF OR(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFM</StageCode>
+                <StageDesc>FIRST MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFM</StageCode>
+                <StageDesc>FIRST MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFINM</StageCode>
+                <StageDesc>FINAL MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFINM</StageCode>
+                <StageDesc>FINAL MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDIS</StageCode>
+                <StageDesc>DISSOLVED(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDIS</StageCode>
+                <StageDesc>DISCHARGE(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>AUC</StageCode>
+                <StageDesc>AUCTION(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BEFILING</StageCode>
+                <StageDesc>eCause List(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WEFILING</StageCode>
+                <StageDesc>eCause List(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+            </CaseStages>
+            <Court>SESSIONS COURT</Court>
+            <City>SEREMBAN</City>
+            <State>NEGERI SEMBILAN</State>
+            <Amount>111978</Amount>
+            <PlaintiffName>CHINESE INDUSTRIAL BANK LTD</PlaintiffName>
+            <PlaintiffID>191301000007 (567124D)</PlaintiffID>
+            <PlaintiffAddr>Maxis Tower, Jln Ampang, Kuala Lumpur City Centre, 50088 Kuala Lumpur</PlaintiffAddr>
+            <DefendantName>SYNTHETIC WARM BHD.</DefendantName>
+            <DefendantID>197603633099 (6330099A)</DefendantID>
+            <DefendantAddr>1/2,JALAN BATU PAHAT,83000 BATU PAHAT,JOHOR</DefendantAddr>
+            <SolicitorName>A Y CHEW <![CDATA[&]]> CO.</SolicitorName>
+            <SolicitorAddr>NO.554, JALAN S2 G10, GARDEN AVENUE, SEREMBAN 2, 70300 Seremban, Negeri Sembilan</SolicitorAddr>
+            <SolicitorTelNo>06-7751510</SolicitorTelNo>
+            <SolicitorRefNo>WUAOR-SBN</SolicitorRefNo>
+            <LiquidatorName>SYNTHETIC LIQUIDATOR WUAOR</LiquidatorName>
+            <LiquidatorAddr>-</LiquidatorAddr>
+            <LiquidatorTelNo>0388880005</LiquidatorTelNo>
+            <LiquidatorRefNo>LIQWUAOR-SBN</LiquidatorRefNo>
+            <Sources>
+              <Source>
+                <StageCode>WUAOR</StageCode>
+                <StageDesc>APPOINTMENT OF OR</StageDesc>
+                <StageSeq>5</StageSeq>
+                <Publication>SIN CHEW</Publication>
+                <Date>05/07/2025</Date>
+                <AccessDate>21/07/2025</AccessDate>
+                <JudgementDate>09/01/2025</JudgementDate>
+              </Source>
+            </Sources>
+            <Remarks>-</Remarks>
+            <EntityType>Defendant</EntityType>
+            <OCRStatus>CP</OCRStatus>
+            <Status />
+            <StatusDate />
+            <OrderDate />
+            <MeetingDate />
+            <PetitionDate />
+            <HearingDate />
+            <CaseDate>09/01/2025</CaseDate>
+            <LitigationType>WUAOR</LitigationType>
+            <AddressOfProperty />
+            <ParticularsTitleOfProperty />
+            <ReservePrice />
+            <AuctionDate />
+            <SettlementDate />
+            <DissolutionDate />
+            <CaseStmt>-</CaseStmt>
+          </WindingCompany>
+          <WindingCompany>
+            <CaseNo>AA-WARM-WUO-1/2023</CaseNo>
+            <SubjectRole>DEFENDANT</SubjectRole>
+            <Duration>30</Duration>
+            <EstimateDuration>14</EstimateDuration>
+            <CaseStages>
+              <CaseStage>
+                <StageCode>WWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUP</StageCode>
+                <StageDesc>WINDING UP PETITION</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BN</StageCode>
+                <StageDesc>BANKRUPTCY NOTICE</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUBJUD</StageCode>
+                <StageDesc>JUDGEMENT</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BCP</StageCode>
+                <StageDesc>CREDITORS PETITION</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BJUD</StageCode>
+                <StageDesc>JUDGEMENT</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUO</StageCode>
+                <StageDesc>WINDING UP ORDER</StageDesc>
+                <Date>03/03/2023</Date>
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUAOR</StageCode>
+                <StageDesc>APPOINTMENT OF OR(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BARO</StageCode>
+                <StageDesc>ADJUDICATION OR RECEIVING ORDER(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BAOO</StageCode>
+                <StageDesc>APPOINTMENT OF OR(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFM</StageCode>
+                <StageDesc>FIRST MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFM</StageCode>
+                <StageDesc>FIRST MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFINM</StageCode>
+                <StageDesc>FINAL MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFINM</StageCode>
+                <StageDesc>FINAL MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDIS</StageCode>
+                <StageDesc>DISSOLVED(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDIS</StageCode>
+                <StageDesc>DISCHARGE(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>AUC</StageCode>
+                <StageDesc>AUCTION(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BEFILING</StageCode>
+                <StageDesc>eCause List(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WEFILING</StageCode>
+                <StageDesc>eCause List(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+            </CaseStages>
+            <Court>MAHKAMAH SESYEN</Court>
+            <City>BAHAU</City>
+            <State>NEGERI SEMBILAN</State>
+            <Amount>50000</Amount>
+            <PlaintiffName>DEUTSCH-ASIATISCHE BANK</PlaintiffName>
+            <PlaintiffID>196702000032 (992920H)</PlaintiffID>
+            <PlaintiffAddr>-</PlaintiffAddr>
+            <DefendantName>SYNTHETIC WARM BHD.</DefendantName>
+            <DefendantID>197603633099 (6330099A)</DefendantID>
+            <DefendantAddr>1/2,JALAN BATU PAHAT,83000 BATU PAHAT,JOHOR</DefendantAddr>
+            <SolicitorName>LEE BOON PENG <![CDATA[&]]> CO.</SolicitorName>
+            <SolicitorAddr>NO. 121, 1ST FLOOR, JALAN GURNEY, 72100 Bahau, Negeri Sembilan</SolicitorAddr>
+            <SolicitorTelNo>06-4541166</SolicitorTelNo>
+            <SolicitorRefNo>WUO2023</SolicitorRefNo>
+            <LiquidatorName>-</LiquidatorName>
+            <LiquidatorAddr>-</LiquidatorAddr>
+            <LiquidatorTelNo>-</LiquidatorTelNo>
+            <LiquidatorRefNo>-</LiquidatorRefNo>
+            <Sources>
+              <Source>
+                <StageCode>WUO</StageCode>
+                <StageDesc>WINDING UP ORDER</StageDesc>
+                <StageSeq>4</StageSeq>
+                <Publication>NEW STRAITS TIMES</Publication>
+                <Date>13/07/2025</Date>
+                <AccessDate>21/07/2025</AccessDate>
+                <JudgementDate />
+              </Source>
+            </Sources>
+            <Remarks>-</Remarks>
+            <EntityType>Defendant</EntityType>
+            <OCRStatus>CP</OCRStatus>
+            <Status />
+            <StatusDate />
+            <OrderDate>03/03/2023</OrderDate>
+            <MeetingDate />
+            <PetitionDate />
+            <HearingDate>03/03/2023</HearingDate>
+            <CaseDate />
+            <LitigationType>WUO</LitigationType>
+            <AddressOfProperty />
+            <ParticularsTitleOfProperty />
+            <ReservePrice />
+            <AuctionDate />
+            <SettlementDate />
+            <DissolutionDate />
+            <CaseStmt>-</CaseStmt>
+          </WindingCompany>
+          <WindingCompany>
+            <CaseNo>AA-WARM-WUO-4/2024</CaseNo>
+            <SubjectRole>DEFENDANT</SubjectRole>
+            <Duration>8</Duration>
+            <EstimateDuration>14</EstimateDuration>
+            <CaseStages>
+              <CaseStage>
+                <StageCode>WWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUP</StageCode>
+                <StageDesc>WINDING UP PETITION</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BN</StageCode>
+                <StageDesc>BANKRUPTCY NOTICE</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUBJUD</StageCode>
+                <StageDesc>JUDGEMENT</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BCP</StageCode>
+                <StageDesc>CREDITORS PETITION</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BJUD</StageCode>
+                <StageDesc>JUDGEMENT</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUO</StageCode>
+                <StageDesc>WINDING UP ORDER</StageDesc>
+                <Date>03/01/2025</Date>
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUAOR</StageCode>
+                <StageDesc>APPOINTMENT OF OR(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BARO</StageCode>
+                <StageDesc>ADJUDICATION OR RECEIVING ORDER(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BAOO</StageCode>
+                <StageDesc>APPOINTMENT OF OR(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFM</StageCode>
+                <StageDesc>FIRST MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFM</StageCode>
+                <StageDesc>FIRST MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFINM</StageCode>
+                <StageDesc>FINAL MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFINM</StageCode>
+                <StageDesc>FINAL MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDIS</StageCode>
+                <StageDesc>DISSOLVED(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDIS</StageCode>
+                <StageDesc>DISCHARGE(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>AUC</StageCode>
+                <StageDesc>AUCTION(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BEFILING</StageCode>
+                <StageDesc>eCause List(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WEFILING</StageCode>
+                <StageDesc>eCause List(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+            </CaseStages>
+            <Court>MAHKAMAH MAJISTRET</Court>
+            <City>KUCHING</City>
+            <State>SARAWAK</State>
+            <Amount>2000000</Amount>
+            <PlaintiffName>THE BANK OF JEFENA (MALAYA) SDN BHD</PlaintiffName>
+            <PlaintiffID>192901000029 (647T)</PlaintiffID>
+            <PlaintiffAddr>TIADA</PlaintiffAddr>
+            <DefendantName>SYNTHETIC WARM BHD.</DefendantName>
+            <DefendantID>197603633099</DefendantID>
+            <DefendantAddr>1/2,JALAN BATU PAHAT,83000 BATU PAHAT,JOHOR</DefendantAddr>
+            <SolicitorName>Loke <![CDATA[&]]> King</SolicitorName>
+            <SolicitorAddr>1st Floor, Lot 304, Lorong Rubber No.7, Jalan Rubber, 93400 Kuching, Sarawak.</SolicitorAddr>
+            <SolicitorTelNo>60 82 234 300</SolicitorTelNo>
+            <SolicitorRefNo>WUO/125</SolicitorRefNo>
+            <LiquidatorName>SYNTHETIC LIQUIDATOR WUO</LiquidatorName>
+            <LiquidatorAddr>-</LiquidatorAddr>
+            <LiquidatorTelNo>0388880004</LiquidatorTelNo>
+            <LiquidatorRefNo>LIQWUO/125</LiquidatorRefNo>
+            <Sources>
+              <Source>
+                <StageCode>WUO</StageCode>
+                <StageDesc>WINDING UP ORDER</StageDesc>
+                <StageSeq>4</StageSeq>
+                <Publication>NANYANG SIANG PAU</Publication>
+                <Date>04/07/2025</Date>
+                <AccessDate>21/07/2025</AccessDate>
+                <JudgementDate />
+              </Source>
+            </Sources>
+            <Remarks>-</Remarks>
+            <EntityType>Defendant</EntityType>
+            <OCRStatus>CP</OCRStatus>
+            <Status />
+            <StatusDate />
+            <OrderDate>03/01/2025</OrderDate>
+            <MeetingDate />
+            <PetitionDate />
+            <HearingDate>03/01/2025</HearingDate>
+            <CaseDate />
+            <LitigationType>WUO</LitigationType>
+            <AddressOfProperty />
+            <ParticularsTitleOfProperty />
+            <ReservePrice />
+            <AuctionDate />
+            <SettlementDate />
+            <DissolutionDate />
+            <CaseStmt>-</CaseStmt>
+          </WindingCompany>
+          <WindingCompany>
+            <CaseNo>AA-WARM-WUBJUD-3/2024</CaseNo>
+            <SubjectRole>DEFENDANT</SubjectRole>
+            <Duration>8</Duration>
+            <EstimateDuration>14</EstimateDuration>
+            <CaseStages>
+              <CaseStage>
+                <StageCode>WWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUP</StageCode>
+                <StageDesc>WINDING UP PETITION</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BN</StageCode>
+                <StageDesc>BANKRUPTCY NOTICE</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUBJUD</StageCode>
+                <StageDesc>JUDGEMENT</StageDesc>
+                <Date>02/01/2025</Date>
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BCP</StageCode>
+                <StageDesc>CREDITORS PETITION(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BJUD</StageCode>
+                <StageDesc>JUDGEMENT(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUO</StageCode>
+                <StageDesc>WINDING UP ORDER(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUAOR</StageCode>
+                <StageDesc>APPOINTMENT OF OR(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BARO</StageCode>
+                <StageDesc>ADJUDICATION OR RECEIVING ORDER(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BAOO</StageCode>
+                <StageDesc>APPOINTMENT OF OR(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFM</StageCode>
+                <StageDesc>FIRST MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFM</StageCode>
+                <StageDesc>FIRST MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFINM</StageCode>
+                <StageDesc>FINAL MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFINM</StageCode>
+                <StageDesc>FINAL MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDIS</StageCode>
+                <StageDesc>DISSOLVED(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDIS</StageCode>
+                <StageDesc>DISCHARGE(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>AUC</StageCode>
+                <StageDesc>AUCTION(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BEFILING</StageCode>
+                <StageDesc>eCause List(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WEFILING</StageCode>
+                <StageDesc>eCause List(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+            </CaseStages>
+            <Court>MAHKAMAH TINGGI</Court>
+            <City>SIBU</City>
+            <State>SABAH</State>
+            <Amount>0</Amount>
+            <PlaintiffName>BANK ISLAM MALAYSIA BERHAD</PlaintiffName>
+            <PlaintiffID>198301002944 (98127X)</PlaintiffID>
+            <PlaintiffAddr>32ND FLOOR, MENARA BANK ISLAM NO 22, JALAN PERAK</PlaintiffAddr>
+            <DefendantName>SYNTHETIC WARM BHD.</DefendantName>
+            <DefendantID>197603633099 (6330099A)</DefendantID>
+            <DefendantAddr>1/2,JALAN BATU PAHAT,83000 BATU PAHAT,JOHOR</DefendantAddr>
+            <SolicitorName>Ken Yong<![CDATA[&]]>Co</SolicitorName>
+            <SolicitorAddr>Block B3, Lot 3, 1st Floor, Bandar Labuk Jaya, Mile 7 90000 Sandakan Sabah</SolicitorAddr>
+            <SolicitorTelNo>60 89-229 163</SolicitorTelNo>
+            <SolicitorRefNo>WUBJUD/124</SolicitorRefNo>
+            <LiquidatorName>-</LiquidatorName>
+            <LiquidatorAddr>-</LiquidatorAddr>
+            <LiquidatorTelNo>-</LiquidatorTelNo>
+            <LiquidatorRefNo>-</LiquidatorRefNo>
+            <Sources>
+              <Source>
+                <StageCode>WUBJUD</StageCode>
+                <StageDesc>JUDGEMENT</StageDesc>
+                <StageSeq>3</StageSeq>
+                <Publication>MALAYSIA NANBAN</Publication>
+                <Date>03/07/2025</Date>
+                <AccessDate>21/07/2025</AccessDate>
+                <JudgementDate />
+              </Source>
+            </Sources>
+            <Remarks>-</Remarks>
+            <EntityType>Defendant</EntityType>
+            <OCRStatus>CP</OCRStatus>
+            <Status />
+            <StatusDate />
+            <OrderDate>02/01/2025</OrderDate>
+            <MeetingDate />
+            <PetitionDate />
+            <HearingDate />
+            <CaseDate />
+            <LitigationType>WUBJUD</LitigationType>
+            <AddressOfProperty />
+            <ParticularsTitleOfProperty />
+            <ReservePrice />
+            <AuctionDate />
+            <SettlementDate />
+            <DissolutionDate />
+            <CaseStmt>Writ Saman (Pembinaan)</CaseStmt>
+          </WindingCompany>
+          <WindingCompany>
+            <CaseNo>AA-WARM-WEFILING-6/2025</CaseNo>
+            <SubjectRole>DEFENDANT</SubjectRole>
+            <Duration>2</Duration>
+            <EstimateDuration>14</EstimateDuration>
+            <CaseStages>
+              <CaseStage>
+                <StageCode>WWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUP</StageCode>
+                <StageDesc>WINDING UP PETITION</StageDesc>
+                <Date>01/07/2025</Date>
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BN</StageCode>
+                <StageDesc>BANKRUPTCY NOTICE</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUBJUD</StageCode>
+                <StageDesc>JUDGEMENT</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BCP</StageCode>
+                <StageDesc>CREDITORS PETITION</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BJUD</StageCode>
+                <StageDesc>JUDGEMENT</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUO</StageCode>
+                <StageDesc>WINDING UP ORDER</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUAOR</StageCode>
+                <StageDesc>APPOINTMENT OF OR</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BARO</StageCode>
+                <StageDesc>ADJUDICATION OR RECEIVING ORDER</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BAOO</StageCode>
+                <StageDesc>APPOINTMENT OF OR</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFM</StageCode>
+                <StageDesc>FIRST MEETING</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFM</StageCode>
+                <StageDesc>FIRST MEETING</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFINM</StageCode>
+                <StageDesc>FINAL MEETING</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFINM</StageCode>
+                <StageDesc>FINAL MEETING</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDIS</StageCode>
+                <StageDesc>DISSOLVED</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDIS</StageCode>
+                <StageDesc>DISCHARGE</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>AUC</StageCode>
+                <StageDesc>AUCTION</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BEFILING</StageCode>
+                <StageDesc>eCause List</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WEFILING</StageCode>
+                <StageDesc>eCause List</StageDesc>
+                <Date>01/01/2025</Date>
+              </CaseStage>
+            </CaseStages>
+            <Court>HIGH COURT</Court>
+            <City>KUALA LUMPUR</City>
+            <State>WILAYAH PERSEKUTUAN</State>
+            <Amount>100</Amount>
+            <PlaintiffName>SYNTHETIC INDIVIDUAL 1</PlaintiffName>
+            <PlaintiffID>60509106700</PlaintiffID>
+            <PlaintiffAddr>D-08-08 SKY TAMAN RESIDENCES</PlaintiffAddr>
+            <DefendantName>SYNTHETIC WARM BHD.</DefendantName>
+            <DefendantID>197603633099</DefendantID>
+            <DefendantAddr>1/2,JALAN BATU PAHAT.</DefendantAddr>
+            <SolicitorName>SYNTHETIC WARM SOLICITOR</SolicitorName>
+            <SolicitorAddr>1/2,JALAN BATU PAHAT.</SolicitorAddr>
+            <SolicitorTelNo>197603633099</SolicitorTelNo>
+            <SolicitorRefNo>WARM/123</SolicitorRefNo>
+            <LiquidatorName>SYNTHETIC WARM LIQUIDATOR</LiquidatorName>
+            <LiquidatorAddr>1/2,JALAN BATU PAHAT.</LiquidatorAddr>
+            <LiquidatorTelNo>197603633099</LiquidatorTelNo>
+            <LiquidatorRefNo>WARM/123</LiquidatorRefNo>
+            <Sources>
+              <Source>
+                <StageCode>WUP</StageCode>
+                <StageDesc>WINDING UP PETITION</StageDesc>
+                <StageSeq>2</StageSeq>
+                <Publication>OTHERS</Publication>
+                <Date>16/07/2025</Date>
+                <AccessDate>01/08/2025</AccessDate>
+                <JudgementDate />
+              </Source>
+              <Source>
+                <StageCode>WEFILING</StageCode>
+                <StageDesc>eCause List</StageDesc>
+                <StageSeq>0</StageSeq>
+                <Publication>FEDERAL GAZETTE</Publication>
+                <Date>11/07/2025</Date>
+                <AccessDate>21/07/2025</AccessDate>
+                <JudgementDate />
+              </Source>
+            </Sources>
+            <Remarks>-</Remarks>
+            <EntityType>Defendant</EntityType>
+            <OCRStatus>CP</OCRStatus>
+            <Status />
+            <StatusDate />
+            <OrderDate />
+            <MeetingDate />
+            <PetitionDate>01/07/2025</PetitionDate>
+            <HearingDate>01/07/2025</HearingDate>
+            <CaseDate />
+            <LitigationType>WUP</LitigationType>
+            <AddressOfProperty />
+            <ParticularsTitleOfProperty />
+            <ReservePrice />
+            <AuctionDate />
+            <SettlementDate />
+            <DissolutionDate />
+            <CaseStmt>-</CaseStmt>
+          </WindingCompany>
+          <WindingCompany>
+            <CaseNo>AA-WARM-WUP-2/2024</CaseNo>
+            <SubjectRole>DEFENDANT</SubjectRole>
+            <Duration>8</Duration>
+            <EstimateDuration>14</EstimateDuration>
+            <CaseStages>
+              <CaseStage>
+                <StageCode>WWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUP</StageCode>
+                <StageDesc>WINDING UP PETITION</StageDesc>
+                <Date>04/01/2025</Date>
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BN</StageCode>
+                <StageDesc>BANKRUPTCY NOTICE(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUBJUD</StageCode>
+                <StageDesc>JUDGEMENT(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BCP</StageCode>
+                <StageDesc>CREDITORS PETITION(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BJUD</StageCode>
+                <StageDesc>JUDGEMENT(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUO</StageCode>
+                <StageDesc>WINDING UP ORDER(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUAOR</StageCode>
+                <StageDesc>APPOINTMENT OF OR(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BARO</StageCode>
+                <StageDesc>ADJUDICATION OR RECEIVING ORDER(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BAOO</StageCode>
+                <StageDesc>APPOINTMENT OF OR(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFM</StageCode>
+                <StageDesc>FIRST MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFM</StageCode>
+                <StageDesc>FIRST MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFINM</StageCode>
+                <StageDesc>FINAL MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFINM</StageCode>
+                <StageDesc>FINAL MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDIS</StageCode>
+                <StageDesc>DISSOLVED(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDIS</StageCode>
+                <StageDesc>DISCHARGE(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>AUC</StageCode>
+                <StageDesc>AUCTION(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BEFILING</StageCode>
+                <StageDesc>eCause List(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WEFILING</StageCode>
+                <StageDesc>eCause List(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+            </CaseStages>
+            <Court>MAHKAMAH SESYEN</Court>
+            <City>KUANTAN</City>
+            <State>PAHANG</State>
+            <Amount>0</Amount>
+            <PlaintiffName>MAYBANK ISLAMIC BERHAD</PlaintiffName>
+            <PlaintiffID>200701029411 (787435M)</PlaintiffID>
+            <PlaintiffAddr>15TH FLOOR, TOWER A DATARAN MAYBANK 1 JALAN MAAROF</PlaintiffAddr>
+            <DefendantName>SYNTHETIC WARM BHD.</DefendantName>
+            <DefendantID>197603633099 (6330099A)</DefendantID>
+            <DefendantAddr>1/2,JALAN BATU PAHAT,83000 BATU PAHAT,JOHOR</DefendantAddr>
+            <SolicitorName>AMIN MAZRUL <![CDATA[&]]> CO.</SolicitorName>
+            <SolicitorAddr>NO.5, 1ST FLOOR, JALAN TUN ISMAIL, 25000 Kuantan, Pahang</SolicitorAddr>
+            <SolicitorTelNo>09-5164242</SolicitorTelNo>
+            <SolicitorRefNo>WUP/007</SolicitorRefNo>
+            <LiquidatorName>-</LiquidatorName>
+            <LiquidatorAddr>-</LiquidatorAddr>
+            <LiquidatorTelNo>-</LiquidatorTelNo>
+            <LiquidatorRefNo>-</LiquidatorRefNo>
+            <Sources>
+              <Source>
+                <StageCode>WUP</StageCode>
+                <StageDesc>WINDING UP PETITION</StageDesc>
+                <StageSeq>2</StageSeq>
+                <Publication>BERITA HARIAN</Publication>
+                <Date>02/07/2025</Date>
+                <AccessDate>21/07/2025</AccessDate>
+                <JudgementDate />
+              </Source>
+            </Sources>
+            <Remarks>-</Remarks>
+            <EntityType>Defendant</EntityType>
+            <OCRStatus>CP</OCRStatus>
+            <Status />
+            <StatusDate />
+            <OrderDate />
+            <MeetingDate />
+            <PetitionDate>04/01/2025</PetitionDate>
+            <HearingDate>04/01/2025</HearingDate>
+            <CaseDate />
+            <LitigationType>WUP</LitigationType>
+            <AddressOfProperty />
+            <ParticularsTitleOfProperty />
+            <ReservePrice />
+            <AuctionDate />
+            <SettlementDate />
+            <DissolutionDate />
+            <CaseStmt>-</CaseStmt>
+          </WindingCompany>
+          <WindingCompany>
+            <CaseNo>BA-28NCC-106-02/2024</CaseNo>
+            <SubjectRole>DEFENDANT</SubjectRole>
+            <Duration>15</Duration>
+            <EstimateDuration>14</EstimateDuration>
+            <CaseStages>
+              <CaseStage>
+                <StageCode>WWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUP</StageCode>
+                <StageDesc>WINDING UP PETITION</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BN</StageCode>
+                <StageDesc>BANKRUPTCY NOTICE</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUBJUD</StageCode>
+                <StageDesc>JUDGEMENT</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BCP</StageCode>
+                <StageDesc>CREDITORS PETITION</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BJUD</StageCode>
+                <StageDesc>JUDGEMENT</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUO</StageCode>
+                <StageDesc>WINDING UP ORDER</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUAOR</StageCode>
+                <StageDesc>APPOINTMENT OF OR</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BARO</StageCode>
+                <StageDesc>ADJUDICATION OR RECEIVING ORDER</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BAOO</StageCode>
+                <StageDesc>APPOINTMENT OF OR</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFM</StageCode>
+                <StageDesc>FIRST MEETING</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFM</StageCode>
+                <StageDesc>FIRST MEETING</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFINM</StageCode>
+                <StageDesc>FINAL MEETING</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFINM</StageCode>
+                <StageDesc>FINAL MEETING</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDIS</StageCode>
+                <StageDesc>DISSOLVED</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDIS</StageCode>
+                <StageDesc>DISCHARGE</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>AUC</StageCode>
+                <StageDesc>AUCTION</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BEFILING</StageCode>
+                <StageDesc>eCause List</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WEFILING</StageCode>
+                <StageDesc>eCause List</StageDesc>
+                <Date>30/06/2024</Date>
+              </CaseStage>
+            </CaseStages>
+            <Court>MAHKAMAH TINGGI</Court>
+            <City>SHAH ALAM</City>
+            <State>SELANGOR</State>
+            <Amount>0</Amount>
+            <PlaintiffName>PLATINUM CORE SOLUTIONS SDN. BHD</PlaintiffName>
+            <PlaintiffID>201201008886 (982406T)</PlaintiffID>
+            <PlaintiffAddr>31, 2nd Floor, Jalan SS22/23, Damansara Jaya, 47100 Petaling Jaya, Selangor.</PlaintiffAddr>
+            <DefendantName>SYNTHETIC WARM BERHAD.</DefendantName>
+            <DefendantID>197603633099</DefendantID>
+            <DefendantAddr>No 2, Jalan Gelsenkirchen</DefendantAddr>
+            <SolicitorName>-</SolicitorName>
+            <SolicitorAddr>-</SolicitorAddr>
+            <SolicitorTelNo>-</SolicitorTelNo>
+            <SolicitorRefNo>-</SolicitorRefNo>
+            <LiquidatorName>PAVANI KASI</LiquidatorName>
+            <LiquidatorAddr>Jabatan Insolvensi Malaysia, Cawangan Selangor, East Entrance, Lot F23-F45, Tingkat 1, Bangunan IDCC Shah Alam, Jalan Pahat L 15 /L, Seksyen 15, 40200 Shah Alam, Selangor</LiquidatorAddr>
+            <LiquidatorTelNo>-</LiquidatorTelNo>
+            <LiquidatorRefNo>[LC000424/2024/B]</LiquidatorRefNo>
+            <Sources>
+              <Source>
+                <StageCode>WEFILING</StageCode>
+                <StageDesc>eCause List</StageDesc>
+                <StageSeq>0</StageSeq>
+                <Publication>E-COURT E-FILING</Publication>
+                <Date>13/12/2024</Date>
+                <AccessDate>06/01/2025</AccessDate>
+                <JudgementDate />
+              </Source>
+            </Sources>
+            <Remarks>-</Remarks>
+            <EntityType>Respondent</EntityType>
+            <OCRStatus>CP</OCRStatus>
+            <Status />
+            <StatusDate />
+            <OrderDate />
+            <MeetingDate />
+            <PetitionDate />
+            <HearingDate>30/06/2024</HearingDate>
+            <CaseDate />
+            <LitigationType>WEFILING</LitigationType>
+            <AddressOfProperty />
+            <ParticularsTitleOfProperty />
+            <ReservePrice />
+            <AuctionDate>01/10/2024 09:00:00 AM</AuctionDate>
+            <SettlementDate />
+            <DissolutionDate />
+            <CaseStmt>Penggulungan Syarikat dan Likuidasi</CaseStmt>
+          </WindingCompany>
+          <WindingCompany>
+            <CaseNo>WA-38-1437-06/2024</CaseNo>
+            <SubjectRole>DEFENDANT</SubjectRole>
+            <Duration>0</Duration>
+            <EstimateDuration>14</EstimateDuration>
+            <CaseStages>
+              <CaseStage>
+                <StageCode>WWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUP</StageCode>
+                <StageDesc>WINDING UP PETITION(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BN</StageCode>
+                <StageDesc>BANKRUPTCY NOTICE(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUBJUD</StageCode>
+                <StageDesc>JUDGEMENT(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BCP</StageCode>
+                <StageDesc>CREDITORS PETITION(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BJUD</StageCode>
+                <StageDesc>JUDGEMENT(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUO</StageCode>
+                <StageDesc>WINDING UP ORDER(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUAOR</StageCode>
+                <StageDesc>APPOINTMENT OF OR(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BARO</StageCode>
+                <StageDesc>ADJUDICATION OR RECEIVING ORDER(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BAOO</StageCode>
+                <StageDesc>APPOINTMENT OF OR(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFM</StageCode>
+                <StageDesc>FIRST MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFM</StageCode>
+                <StageDesc>FIRST MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFINM</StageCode>
+                <StageDesc>FINAL MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFINM</StageCode>
+                <StageDesc>FINAL MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDIS</StageCode>
+                <StageDesc>DISSOLVED(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDIS</StageCode>
+                <StageDesc>DISCHARGE(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>AUC</StageCode>
+                <StageDesc>AUCTION(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BEFILING</StageCode>
+                <StageDesc>eCause List(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WEFILING</StageCode>
+                <StageDesc>eCause List(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+            </CaseStages>
+            <Court>MAHKAMAH TINGGI</Court>
+            <City>KUALA LUMPUR</City>
+            <State>WILAYAH PERSEKUTUAN</State>
+            <Amount>0</Amount>
+            <PlaintiffName>ALLIANCE BANK MALAYSIA BERHAD</PlaintiffName>
+            <PlaintiffID>198201008390 (88103W)</PlaintiffID>
+            <PlaintiffAddr>-</PlaintiffAddr>
+            <DefendantName>SYNTHETIC WARM BHD.</DefendantName>
+            <DefendantID>197603633099 (6330099A)</DefendantID>
+            <DefendantAddr>1/2,JALAN BATU PAHAT, BATU PAHAT, JOHOR</DefendantAddr>
+            <SolicitorName>JOHN YONG <![CDATA[&]]> IRENE SONG</SolicitorName>
+            <SolicitorAddr>NO. 21-2, JALAN PUTERI 2/6 BANDAR PUTERI , 47100, SG, MY</SolicitorAddr>
+            <SolicitorTelNo>03-80631912</SolicitorTelNo>
+            <SolicitorRefNo>2022.7280.JY.ABB</SolicitorRefNo>
+            <LiquidatorName>-</LiquidatorName>
+            <LiquidatorAddr>-</LiquidatorAddr>
+            <LiquidatorTelNo>-</LiquidatorTelNo>
+            <LiquidatorRefNo>-</LiquidatorRefNo>
+            <Sources>
+              <Source>
+                <StageCode>AUC</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <StageSeq>0</StageSeq>
+                <Publication>E-COURT E-LELONG</Publication>
+                <Date>01/10/2024</Date>
+                <AccessDate>17/10/2024</AccessDate>
+                <JudgementDate>15/12/2024</JudgementDate>
+              </Source>
+              <Source>
+                <StageCode>AUC</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <StageSeq>0</StageSeq>
+                <Publication>E-COURT E-LELONG</Publication>
+                <Date>01/10/2024</Date>
+                <AccessDate>25/02/2025</AccessDate>
+                <JudgementDate />
+              </Source>
+              <Source>
+                <StageCode>AUC</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <StageSeq>0</StageSeq>
+                <Publication>E-COURT E-LELONG</Publication>
+                <Date>01/10/2024</Date>
+                <AccessDate>04/04/2025</AccessDate>
+                <JudgementDate />
+              </Source>
+            </Sources>
+            <Remarks>-</Remarks>
+            <EntityType>Defendant</EntityType>
+            <OCRStatus>CP</OCRStatus>
+            <Status />
+            <StatusDate />
+            <OrderDate />
+            <MeetingDate />
+            <PetitionDate />
+            <HearingDate />
+            <CaseDate>15/12/2024</CaseDate>
+            <LitigationType>AUC</LitigationType>
+            <AddressOfProperty>No. 200-13-10, Block 200, Sri Suajaya Condominium, Jalan Kampung Bandar Dalam, Sentul, 51000, Kuala Lumpur, Wilayah Persekutuan Kuala Lumpur</AddressOfProperty>
+            <ParticularsTitleOfProperty>Kondominium</ParticularsTitleOfProperty>
+            <ReservePrice>208000</ReservePrice>
+            <AuctionDate>01/10/2024 09:00:00 AM</AuctionDate>
+            <SettlementDate />
+            <DissolutionDate />
+            <CaseStmt>-</CaseStmt>
+          </WindingCompany>
+          <WindingCompany>
+            <CaseNo>BA-24NCC-246-12/2025</CaseNo>
+            <SubjectRole>PLAINTIFF</SubjectRole>
+            <Duration>-2</Duration>
+            <EstimateDuration>14</EstimateDuration>
+            <CaseStages>
+              <CaseStage>
+                <StageCode>WWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUP</StageCode>
+                <StageDesc>WINDING UP PETITION</StageDesc>
+                <Date>02/11/2025</Date>
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BN</StageCode>
+                <StageDesc>BANKRUPTCY NOTICE(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUBJUD</StageCode>
+                <StageDesc>JUDGEMENT(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BCP</StageCode>
+                <StageDesc>CREDITORS PETITION(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BJUD</StageCode>
+                <StageDesc>JUDGEMENT(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUO</StageCode>
+                <StageDesc>WINDING UP ORDER(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUAOR</StageCode>
+                <StageDesc>APPOINTMENT OF OR(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BARO</StageCode>
+                <StageDesc>ADJUDICATION OR RECEIVING ORDER(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BAOO</StageCode>
+                <StageDesc>APPOINTMENT OF OR(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFM</StageCode>
+                <StageDesc>FIRST MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFM</StageCode>
+                <StageDesc>FIRST MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFINM</StageCode>
+                <StageDesc>FINAL MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFINM</StageCode>
+                <StageDesc>FINAL MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDIS</StageCode>
+                <StageDesc>DISSOLVED(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDIS</StageCode>
+                <StageDesc>DISCHARGE(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>AUC</StageCode>
+                <StageDesc>AUCTION(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BEFILING</StageCode>
+                <StageDesc>eCause List(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WEFILING</StageCode>
+                <StageDesc>eCause List(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+            </CaseStages>
+            <Court>SESSIONS COURT</Court>
+            <City>SHAH ALAM</City>
+            <State>SELANGOR</State>
+            <Amount>52499</Amount>
+            <PlaintiffName>SYNTHETIC WARM BHD.</PlaintiffName>
+            <PlaintiffID>197603633099 (6330099A)</PlaintiffID>
+            <PlaintiffAddr>1/2,JALAN BATU PAHAT,83000 BATU PAHAT,JOHOR</PlaintiffAddr>
+            <DefendantName>CHIT YUAN BANK LTD</DefendantName>
+            <DefendantID>192601000014 (483M)</DefendantID>
+            <DefendantAddr>46, Jalan Chit Yuan Bank Ltd</DefendantAddr>
+            <SolicitorName>CHONG JAY <![CDATA[&]]> CO.</SolicitorName>
+            <SolicitorAddr>No 67, Jalan Shah Alam</SolicitorAddr>
+            <SolicitorTelNo>016-4473897</SolicitorTelNo>
+            <SolicitorRefNo>WUP/0087</SolicitorRefNo>
+            <LiquidatorName>-</LiquidatorName>
+            <LiquidatorAddr>-</LiquidatorAddr>
+            <LiquidatorTelNo>-</LiquidatorTelNo>
+            <LiquidatorRefNo>-</LiquidatorRefNo>
+            <Sources>
+              <Source>
+                <StageCode>WUP</StageCode>
+                <StageDesc>WINDING UP PETITION</StageDesc>
+                <StageSeq>2</StageSeq>
+                <Publication>MALAYSIA NANBAN</Publication>
+                <Date>15/07/2025</Date>
+                <AccessDate>22/07/2025</AccessDate>
+                <JudgementDate />
+              </Source>
+            </Sources>
+            <Remarks>-</Remarks>
+            <EntityType>Plaintiff</EntityType>
+            <OCRStatus>CP</OCRStatus>
+            <Status />
+            <StatusDate />
+            <OrderDate />
+            <MeetingDate />
+            <PetitionDate>02/12/2025</PetitionDate>
+            <HearingDate>02/11/2025</HearingDate>
+            <CaseDate />
+            <LitigationType>WUP</LitigationType>
+            <AddressOfProperty />
+            <ParticularsTitleOfProperty />
+            <ReservePrice />
+            <AuctionDate />
+            <SettlementDate />
+            <DissolutionDate />
+            <CaseStmt>-</CaseStmt>
+          </WindingCompany>
+          <WindingCompany>
+            <CaseNo>AA-WARM-WUO-5/2025</CaseNo>
+            <SubjectRole>DEFENDANT</SubjectRole>
+            <Duration>5</Duration>
+            <EstimateDuration>14</EstimateDuration>
+            <CaseStages>
+              <CaseStage>
+                <StageCode>WWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BWOS</StageCode>
+                <StageDesc>WRIT OF SUMMON</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUP</StageCode>
+                <StageDesc>WINDING UP PETITION</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BN</StageCode>
+                <StageDesc>BANKRUPTCY NOTICE</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUBJUD</StageCode>
+                <StageDesc>JUDGEMENT</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BCP</StageCode>
+                <StageDesc>CREDITORS PETITION</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BJUD</StageCode>
+                <StageDesc>JUDGEMENT</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUO</StageCode>
+                <StageDesc>WINDING UP ORDER</StageDesc>
+                <Date>01/04/2025</Date>
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WUAOR</StageCode>
+                <StageDesc>APPOINTMENT OF OR(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BARO</StageCode>
+                <StageDesc>ADJUDICATION OR RECEIVING ORDER(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BAOO</StageCode>
+                <StageDesc>APPOINTMENT OF OR(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFM</StageCode>
+                <StageDesc>FIRST MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFM</StageCode>
+                <StageDesc>FIRST MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDOD</StageCode>
+                <StageDesc>DECLARATION OF DIVIDEND(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BSSM</StageCode>
+                <StageDesc>SUBSEQUENT MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WFINM</StageCode>
+                <StageDesc>FINAL MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BFINM</StageCode>
+                <StageDesc>FINAL MEETING(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WDIS</StageCode>
+                <StageDesc>DISSOLVED(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BDIS</StageCode>
+                <StageDesc>DISCHARGE(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>AUC</StageCode>
+                <StageDesc>AUCTION(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>BEFILING</StageCode>
+                <StageDesc>eCause List(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+              <CaseStage>
+                <StageCode>WEFILING</StageCode>
+                <StageDesc>eCause List(NA)</StageDesc>
+                <Date />
+              </CaseStage>
+            </CaseStages>
+            <Court>MAHKAMAH SESYEN</Court>
+            <City>MUAR</City>
+            <State>JOHOR</State>
+            <Amount>100000</Amount>
+            <PlaintiffName>CALCUTTA COMMERCIAL BANK LTD</PlaintiffName>
+            <PlaintiffID>194102000003 (991336K)</PlaintiffID>
+            <PlaintiffAddr>18, 6th Floor, R.N. Mukherjee Road, Kolkata GPO, Kolkata</PlaintiffAddr>
+            <DefendantName>SYNTHETIC WARM BHD.</DefendantName>
+            <DefendantID>197603633099 (6330099A)</DefendantID>
+            <DefendantAddr>1/2,JALAN BATU PAHAT,83000 BATU PAHAT,JOHOR</DefendantAddr>
+            <SolicitorName>ALAN TAN <![CDATA[&]]> ASSOCIATES</SolicitorName>
+            <SolicitorAddr>NO. 9-9A <![CDATA[&]]> NO. 9-10A, LORONG HAJI WAN IBRAHIM, JALAN ABDUL RAHMAN, 84000 Muar, Johor</SolicitorAddr>
+            <SolicitorTelNo>06-9533500 / 06-9537500</SolicitorTelNo>
+            <SolicitorRefNo>BHMUAR</SolicitorRefNo>
+            <LiquidatorName>-</LiquidatorName>
+            <LiquidatorAddr>-</LiquidatorAddr>
+            <LiquidatorTelNo>-</LiquidatorTelNo>
+            <LiquidatorRefNo>-</LiquidatorRefNo>
+            <Sources>
+              <Source>
+                <StageCode>WUO</StageCode>
+                <StageDesc>WINDING UP ORDER</StageDesc>
+                <StageSeq>4</StageSeq>
+                <Publication>UTUSAN MELAYU</Publication>
+                <Date>10/07/2025</Date>
+                <AccessDate>21/07/2025</AccessDate>
+                <JudgementDate />
+              </Source>
+            </Sources>
+            <Remarks>-</Remarks>
+            <EntityType>Defendant</EntityType>
+            <OCRStatus>ST</OCRStatus>
+            <Status />
+            <StatusDate />
+            <OrderDate>02/04/2025</OrderDate>
+            <MeetingDate />
+            <PetitionDate />
+            <HearingDate>01/04/2025</HearingDate>
+            <CaseDate />
+            <LitigationType>WUO</LitigationType>
+            <AddressOfProperty />
+            <ParticularsTitleOfProperty />
+            <ReservePrice />
+            <AuctionDate />
+            <SettlementDate>01/07/2025</SettlementDate>
+            <DissolutionDate />
+            <CaseStmt>-</CaseStmt>
+          </WindingCompany>
+        </WindingCompanies>
+        <SubjectAsPlaintiffCount>0</SubjectAsPlaintiffCount>
+      </Litigation>
+      <PrevEnquiries>
+        <PrevEnquiry>
+          <EnqDate>-</EnqDate>
+          <EnqNo>-</EnqNo>
+          <Purpose>-</Purpose>
+          <PurposeStdCode>-</PurposeStdCode>
+          <Enquirer>-</Enquirer>
+          <EnquirerName>-</EnquirerName>
+        </PrevEnquiry>
+      </PrevEnquiries>
+      <TradeNarratives>
+        <TradeNarrative>
+          <DateCreated>-</DateCreated>
+          <NatureOfDispute>-</NatureOfDispute>
+          <Status>-</Status>
+          <StatusDate>-</StatusDate>
+        </TradeNarrative>
+      </TradeNarratives>
+      <CurrentBusComps>
+        <CurrentBusComp>
+          <RegNo>6330099A</RegNo>
+          <NewRegNo>197603633099</NewRegNo>
+          <RegDate>16/09/1976</RegDate>
+          <RegName>SYNTHETIC WARM BHD.</RegName>
+          <Status>Existing</Status>
+          <AppointmentDate>-</AppointmentDate>
+          <Position>Shareholder</Position>
+          <IndustryCode>56107</IndustryCode>
+          <IndustryCodeDesc>Food or beverage, food and beverage preparation in market stalls/hawkers</IndustryCodeDesc>
+          <NoOfShares>1,500,000</NoOfShares>
+          <SharePercentage>26.32</SharePercentage>
+          <ProfitMakings>
+            <ProfitMaking>
+              <Year>2024</Year>
+              <ProfitMake>785,000</ProfitMake>
+            </ProfitMaking>
+            <ProfitMaking>
+              <Year>2023</Year>
+              <ProfitMake>985,000</ProfitMake>
+            </ProfitMaking>
+            <ProfitMaking>
+              <Year>2022</Year>
+              <ProfitMake>885,000</ProfitMake>
+            </ProfitMaking>
+            <ProfitMaking>
+              <Year>2021</Year>
+              <ProfitMake>785,000</ProfitMake>
+            </ProfitMaking>
+            <ProfitMaking>
+              <Year>2020</Year>
+              <ProfitMake>885,000</ProfitMake>
+            </ProfitMaking>
+          </ProfitMakings>
+          <TradeIndicator>N</TradeIndicator>
+          <LastUpdated>21/03/2024</LastUpdated>
+        </CurrentBusComp>
+      </CurrentBusComps>
+      <TradeReference>
+        <InstlYr>
+          <Y1>2025</Y1>
+          <Y2>2024</Y2>
+        </InstlYr>
+        <InstlMth>
+          <M1>S</M1>
+          <M2>A</M2>
+          <M3>J</M3>
+          <M4>J</M4>
+          <M5>M</M5>
+          <M6>A</M6>
+          <M7>M</M7>
+          <M8>F</M8>
+          <M9>J</M9>
+          <M10>D</M10>
+          <M11>N</M11>
+          <M12>O</M12>
+        </InstlMth>
+        <TotalBal>0.00</TotalBal>
+        <TotalLimit>100,000,000,011.00</TotalLimit>
+        <Industries>
+          <Industry>
+            <IndustryCode>OTH</IndustryCode>
+            <IndustryDesc>Others</IndustryDesc>
+            <Creditors>
+              <Creditor>
+                <Name>MERCEDES-BENZ MALAYSIA SDN BHD</Name>
+                <RegNo>81004566X</RegNo>
+                <NewRegNo>
+                </NewRegNo>
+                <Address>Jalan Pantai Bahru, Taman Bukit Pantai 59800 WILAYAH PERSEKUTUAN K LUMPUR MALAYSIA</Address>
+                <ContactNo>032246 8888</ContactNo>
+                <Accounts>
+                  <Account>
+                    <No>1</No>
+                    <StartDate>01/01/2025</StartDate>
+                    <AccStsCode>D</AccStsCode>
+                    <AccSts>Default</AccSts>
+                    <NatureOfDebtCode>29</NatureOfDebtCode>
+                    <NatureOfDebt>Co Owner</NatureOfDebt>
+                    <RefNo>MERCEDES03</RefNo>
+                    <SubmDate>13/01/2025</SubmDate>
+                    <SubAccs>
+                      <SubAccount>
+                        <StmtDate>01/01/2025</StmtDate>
+                        <Limit>100000000011</Limit>
+                        <CreditTerm>99</CreditTerm>
+                        <DefaultAmt>900.00</DefaultAmt>
+                        <TotalOutstanding>0.00</TotalOutstanding>
+                        <InstlArr>
+                          <M1 />
+                          <M2 />
+                          <M3 />
+                          <M4 />
+                          <M5 />
+                          <M6 />
+                          <M7 />
+                          <M8 />
+                          <M9 />
+                          <M10 />
+                          <M11 />
+                          <M12 />
+                        </InstlArr>
+                        <LODNOD />
+                        <LODNODDate>01/01/2025</LODNODDate>
+                        <Amt30>Not Applicable</Amt30>
+                        <Amt60>Not Applicable</Amt60>
+                        <Amt90>0.00</Amt90>
+                        <Amt120>0.00</Amt120>
+                        <Amt150>0.00</Amt150>
+                        <Amt180>900.00</Amt180>
+                        <AmtOv180>0.00</AmtOv180>
+                      </SubAccount>
+                    </SubAccs>
+                  </Account>
+                </Accounts>
+              </Creditor>
+            </Creditors>
+          </Industry>
+        </Industries>
+      </TradeReference>
+      <orgId>0</orgId>
+      <InboxPdfFile>https://uat.creditbureau.com.my/scbs/viewInboxPdfAction?UEFSQU1FVEVS=UFNDQlMwNDg5OzIwMjUwOTE4MTI4MzA3NA==</InboxPdfFile>
+      <LastReturnDate />
+      <NextReturnDate />
+      <DueReturnDate />
+      <CPOFile />
+    </SMEProfile>
+    <InterestParties />
+  </Report>
+  <ReportAccess>
+    <RPTTYPE>CER_C</RPTTYPE>
+    <SBJSME>Y</SBJSME>
+    <COMPROFILE>Y</COMPROFILE>
+    <BUSPROFILE>N</BUSPROFILE>
+    <BRANCHES>N</BRANCHES>
+    <CURROWNERS>N</CURROWNERS>
+    <PREVOWNERS>N</PREVOWNERS>
+    <DIRECTORS>Y</DIRECTORS>
+    <SHRHOLDERS>Y</SHRHOLDERS>
+    <SHRCAPITAL>Y</SHRCAPITAL>
+    <CHARGES>Y</CHARGES>
+    <BALSHEET>Y</BALSHEET>
+    <PROFLOSS>Y</PROFLOSS>
+    <TRDCREDIT>N</TRDCREDIT>
+    <LOANINFO>N</LOANINFO>
+    <DCHEQUES>N</DCHEQUES>
+    <DCHEQUESOTH>N</DCHEQUESOTH>
+    <ENQUIRY>N</ENQUIRY>
+    <AUDITOR>Y</AUDITOR>
+    <GLOSSARY>Y</GLOSSARY>
+    <SUMMARY>N</SUMMARY>
+    <BUSINFO>N</BUSINFO>
+    <COMINFO>Y</COMINFO>
+    <FINSTMT>Y</FINSTMT>
+    <BANKINFO>N</BANKINFO>
+    <CURRENQ>N</CURRENQ>
+    <PREVENQ>N</PREVENQ>
+    <TRDAVAILABLE>N</TRDAVAILABLE>
+    <CREDIT>N</CREDIT>
+    <IPINFO>N</IPINFO>
+    <IPBANKINFO>N</IPBANKINFO>
+    <IPLOANINFO>N</IPLOANINFO>
+    <IPDCHEQUES>N</IPDCHEQUES>
+    <IPDCHEQUESOTH>N</IPDCHEQUESOTH>
+    <TRDNARRATIVE>N</TRDNARRATIVE>
+    <INDINFO>N</INDINFO>
+    <CURRBUSCOMP>Y</CURRBUSCOMP>
+    <PREVBUSCOMP>N</PREVBUSCOMP>
+    <ADDRINFO>N</ADDRINFO>
+    <CRSADDRINFO>N</CRSADDRINFO>
+    <LTSMEINFO />
+    <LTINDINFO />
+    <LTSUMMON />
+    <LTCVLSUIT />
+    <LTCREDPET />
+    <LTBANKNOT />
+    <LTRECORD />
+    <LTADJNOT />
+    <LTDISCAO />
+    <LTWINDCOMP />
+    <LTWOUNDCOMP />
+    <CRSSUMMARY>N</CRSSUMMARY>
+    <FINRATIO>Y</FINRATIO>
+    <FINRATIOGLOSSARY>Y</FINRATIOGLOSSARY>
+    <MOTORTRADE>N</MOTORTRADE>
+    <SSMLASTUPDATE>Y</SSMLASTUPDATE>
+    <DCHEQUESSUMMARY>N</DCHEQUESSUMMARY>
+    <RELATEDBUSCOMP>N</RELATEDBUSCOMP>
+    <PREVENQFISUMMARY>N</PREVENQFISUMMARY>
+    <PREVENQNONFISUMMARY>N</PREVENQNONFISUMMARY>
+    <PREVENQFI>N</PREVENQFI>
+    <PREVENQNONFI>N</PREVENQNONFI>
+    <SCORING>N</SCORING>
+    <IPSUMMARY>N</IPSUMMARY>
+    <EINFO>N</EINFO>
+    <TRADESEARCH>N</TRADESEARCH>
+    <CUSTOMIZED>Y</CUSTOMIZED>
+    <UNWELCOMELIST>N</UNWELCOMELIST>
+    <IPRELATEDBUSCOMP>N</IPRELATEDBUSCOMP>
+    <IPCURRBUSCOMP />
+    <IPPREVBUSCOMP />
+    <CCRISSERVICETYPE>CRA</CCRISSERVICETYPE>
+    <CCRISSUPPL>N</CCRISSUPPL>
+    <IPCCRISSUPPL>N</IPCCRISSUPPL>
+    <PROPINFO>N</PROPINFO>
+    <IPPROPINFO>N</IPPROPINFO>
+    <PROPPROXY>N</PROPPROXY>
+    <IPPROPPROXY>N</IPPROPPROXY>
+    <LTSUBJECT>Y</LTSUBJECT>
+    <LTINDSUBJECT>N</LTINDSUBJECT>
+    <LTLEGALSUM>N</LTLEGALSUM>
+    <LTLEGAL>Y</LTLEGAL>
+    <IPLTLEGALSUM>N</IPLTLEGALSUM>
+    <IPLTLEGAL>N</IPLTLEGAL>
+    <TRADEREF>Y</TRADEREF>
+    <IPTRADEREF>N</IPTRADEREF>
+    <BIRINDICATOR>Y</BIRINDICATOR>
+    <IBRINDICATOR>N</IBRINDICATOR>
+    <FACTYP>C</FACTYP>
+    <LENDERTYP>C</LENDERTYP>
+    <CCRISPROFILE>N</CCRISPROFILE>
+    <FRAUDSCORE>N</FRAUDSCORE>
+    <GENTAXINVOICE>N</GENTAXINVOICE>
+    <FINSUMMARY>Y</FINSUMMARY>
+    <CBMNOTIFLETTER>N</CBMNOTIFLETTER>
+    <SANCTION>N</SANCTION>
+    <INCOMEESTIMATION>N</INCOMEESTIMATION>
+    <ISFISUBSCRIBER>Y</ISFISUBSCRIBER>
+    <VIEWMSICCODE>N</VIEWMSICCODE>
+  </ReportAccess>
+</Response>

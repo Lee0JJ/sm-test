@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Tables with Pagination</title>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+    table, th, td {
+      border: 1px solid black;
+    }
+    th, td {
+      padding: 8px;
+      text-align: left;
+    }
+    .pagination {
+      margin-top: 10px;
+    }
+    .pagination button {
+      padding: 5px 10px;
+      margin: 0 2px;
+      cursor: pointer;
+    }
+
+    /* Initially hide all tables */
+    .table-container {
+      display: none;
+    }
+
+    /* Navigation buttons style */
+    .navigation-buttons {
+      margin-top: 20px;
+    }
+    .navigation-buttons button {
+      padding: 10px 20px;
+      margin: 0 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Tables with Pagination</h2>
+
+  <!-- Input for max tables to show per page -->
+  <div>
+    <label for="maxTablesInput">Max tables per page:</label>
+    <input type="number" id="maxTablesInput" value="1" min="1" />
+  </div>
+
+  <!-- Navigation Buttons -->
+  <div class="navigation-buttons">
+    <button onclick="showTables(currentPage - 1)">Previous</button>
+    <button onclick="showTables(currentPage + 1)">Next</button>
+  </div>
+
+  <!-- Table 1 -->
+  <div class="table-container alertDetailTable" id="table1Container">
+    <h3>Table 1</h3>
+    <table id="table1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Rows for Table 1 -->
+      </tbody>
+    </table>
+    <div class="pagination" id="pagination1"></div>
+  </div>
+
+  <!-- Table 2 -->
+  <div class="table-container" id="table2Container">
+    <h3>Table 2</h3>
+    <table id="table2">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Rows for Table 2 -->
+      </tbody>
+    </table>
+    <div class="pagination" id="pagination2"></div>
+  </div>
+
+  <script>
+    // Table Data for Table 1
+    const table1Data = [
+      { name: 'John', age: 28, country: 'USA' },
+      { name: 'Jane', age: 22, country: 'Canada' },
+      { name: 'Paul', age: 33, country: 'UK' },
+      { name: 'Lisa', age: 29, country: 'Australia' },
+      { name: 'James', age: 35, country: 'USA' },
+      { name: 'Mary', age: 31, country: 'Canada' },
+      { name: 'Sophia', age: 25, country: 'UK' },
+      { name: 'Michael', age: 40, country: 'Australia' },
+      { name: 'Robert', age: 27, country: 'USA' },
+      { name: 'Emma', age: 24, country: 'Canada' },
+      { name: 'David', age: 30, country: 'UK' },
+      { name: 'Olivia', age: 22, country: 'Australia' },
+    ];
+
+    // Table Data for Table 2
+    const table2Data = [
+      { name: 'Alice', age: 32, country: 'Germany' },
+      { name: 'Bob', age: 27, country: 'France' },
+      { name: 'Charlie', age: 26, country: 'Spain' },
+      { name: 'Dana', age: 29, country: 'Italy' },
+      { name: 'Eve', age: 40, country: 'USA' },
+      { name: 'Frank', age: 35, country: 'UK' },
+      { name: 'Grace', age: 28, country: 'Canada' },
+      { name: 'Hank', age: 33, country: 'Australia' },
+      { name: 'Ivy', age: 22, country: 'Germany' },
+      { name: 'Jack', age: 31, country: 'France' },
+      { name: 'Kim', age: 24, country: 'Spain' },
+      { name: 'Liam', age: 37, country: 'Italy' },
+    ];
+
+    const rowsPerPage = 5;
+    let currentPage = 1;  // Tracks the current page
+    let tablesPerPage = 1;  // Default to 1 table per page
+
+    // Function to display pagination and table rows
+    function paginateTable(tableId, tableData, paginationId) {
+      let currentPageInTable = 1;
+
+      // Function to display a page of rows
+      function displayTablePage() {
+        const startIndex = (currentPageInTable - 1) * rowsPerPage;
+        const endIndex = startIndex + rowsPerPage;
+        const rowsToDisplay = tableData.slice(startIndex, endIndex);
+
+        const tableBody = document.getElementById(tableId).getElementsByTagName('tbody')[0];
+        tableBody.innerHTML = ''; // Clear current rows
+
+        rowsToDisplay.forEach(row => {
+          const tr = document.createElement('tr');
+          tr.innerHTML = `<td>${row.name}</td><td>${row.age}</td><td>${row.country}</td>`;
+          tableBody.appendChild(tr);
+        });
+      }
+
+      // Function to generate pagination controls
+      function generatePaginationControls() {
+        const totalPages = Math.ceil(tableData.length / rowsPerPage);
+        const paginationDiv = document.getElementById(paginationId);
+        paginationDiv.innerHTML = '';
+
+        for (let i = 1; i <= totalPages; i++) {
+          const button = document.createElement('button');
+          button.textContent = i;
+          button.onclick = () => {
+            currentPageInTable = i;
+            displayTablePage();
+          };
+          paginationDiv.appendChild(button);
+        }
+      }
+
+      // Initial setup
+      displayTablePage();
+      generatePaginationControls();
+    }
+
+    // Show the specified range of tables based on the page and max tables per page
+    function showTables(page) {
+      const maxTables = $('#maxTablesInput').val();  // Get the number of tables to show per page from input
+      tablesPerPage = parseInt(maxTables, 10);
+
+      // Ensure valid range for currentPage
+      if (page < 1) page = 1;
+      if (page > 2) page = 2;
+
+      // Hide all table containers
+      const tableContainers = document.querySelectorAll('.table-container');
+      tableContainers.forEach(container => container.style.display = 'none');
+
+      // Show the required number of tables based on current page and max tables per page
+      for (let i = (page - 1) * tablesPerPage + 1; i <= page * tablesPerPage && i <= 2; i++) {
+        const tableToShow = document.getElementById('table' + i + 'Container');
+        tableToShow.style.display = 'block';
+
+        // Initialize pagination for the selected table
+        if (i === 1) {
+          paginateTable('table1', table1Data, 'pagination1');
+        } else if (i === 2) {
+          paginateTable('table2', table2Data, 'pagination2');
+        }
+      }
+
+      // Update the current page
+      currentPage = page;
+    }
+
+    // Initial call to show tables
+    showTables(currentPage);
+
+    // Re-run showTables when maxTablesInput changes
+    $('#maxTablesInput').on('input', function() {
+      showTables(currentPage);
+    });
+
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .pagination-container {
+        width: 100%;
+        height: 100vh;
+        overflow-y: scroll;
+        scroll-snap-type: y mandatory;
+        scroll-behavior: smooth;
+        /* Optional: for smoother animation, but browser default is 300-500ms */
+        transition: scroll-behavior 3s;
+      }
+
+      .pagination-slide {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+        /* scroll-snap-align: start; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="pagination-container">
+      <div class="pagination-slide" style="background-color: lightcoral">
+        Slide 1
+        <!-- A Card with some content -->
+        <div class="card" style="background-color: white; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+          <h2>Card Title</h2>
+          <p>This is a card with some content.</p>
+          <button style="padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px;">Click Me</button>
+        </div>
+      </div>
+      <div class="pagination-slide" style="background-color: lightsalmon">
+        Slide 2
+      </div>
+      <div class="pagination-slide" style="background-color: lightgoldenrodyellow">
+        Slide 3
+      </div>
+      <div class="pagination-slide" style="background-color: lightgreen">
+        Slide 4
+      </div>
+      <div class="pagination-slide" style="background-color: lightblue">
+        Slide 5
+      </div>
+    </div>
+  </body>
+  <script>
+    // Store original background colors
+    const slides = document.querySelectorAll('.pagination-slide');
+    const bgColors = Array.from(slides).map(slide => slide.style.backgroundColor);
+    var currentSlideHeight = slides[0].getBoundingClientRect().height;
+    slides.forEach((slide, i) => {
+      slide.style.backgroundColor = 'white'; // Set initial color to the first slide's color
+    });
+
+    // Helper to animate background color
+    function animateBgColor(element, fromColor, toColor, duration = 1000) {
+      // Create overlay
+      let overlay = document.createElement('div');
+      overlay.style.position = 'absolute';
+      overlay.style.left = 0;
+      overlay.style.right = 0;
+      overlay.style.bottom = 0;
+      overlay.style.height = '0%';
+      overlay.style.background = toColor;
+      overlay.style.zIndex = 1;
+      overlay.style.pointerEvents = 'none';
+      overlay.style.transition = `height ${duration}ms linear`;
+
+      // Ensure parent is positioned
+      element.style.position = 'relative';
+      element.appendChild(overlay);
+
+      // Animate overlay height
+      setTimeout(() => {
+        overlay.style.height = '100%';
+      }, 10);
+
+      // After animation, set background and remove overlay
+      setTimeout(() => {
+        element.style.backgroundColor = toColor;
+        overlay.remove();
+      }, duration + 20);
+    }
+
+    function animateBgColorFromCenterToOutside(element, fromColor, toColor, duration = 1000) {
+      // Use CSS animation for the effect
+      element.style.position = 'relative';
+      // Remove any previous overlay if exists
+      let oldOverlay = element.querySelector('.center-bg-animate');
+      if (oldOverlay) oldOverlay.remove();
+
+      let overlay = document.createElement('div');
+      overlay.className = 'center-bg-animate';
+      overlay.style.position = 'absolute';
+      overlay.style.left = '50%';
+      overlay.style.top = '50%';
+      overlay.style.width = '0%';
+      overlay.style.height = '0%';
+      overlay.style.transform = 'translate(-50%, -50%)';
+      overlay.style.background = toColor;
+      overlay.style.zIndex = -1;
+      overlay.style.pointerEvents = 'none';
+      overlay.style.borderRadius = '50%';
+      overlay.style.animation = `centerExpand ${duration}ms linear forwards`;
+
+      // Add keyframes if not already present
+      if (!document.getElementById('centerExpandKeyframes')) {
+        const style = document.createElement('style');
+        style.id = 'centerExpandKeyframes';
+        style.innerHTML = `
+          @keyframes centerExpand {
+        from {
+          width: 0%;
+          height: 0%;
+        }
+        to {
+          width: 100%;
+          height: 100%;
+        }
+          }
+        `;
+        document.head.appendChild(style);
+      }
+
+      element.appendChild(overlay);
+
+      overlay.addEventListener('animationend', () => {
+        element.style.backgroundColor = toColor;
+        overlay.remove();
+      });
+    }
+
+
+    let lastActive = 0;
+
+    function getCurrentSlideIndex() {
+      let idx = 0;
+      let minDist = Infinity;
+      slides.forEach((slide, i) => {
+        const rect = slide.getBoundingClientRect();
+        const dist = Math.abs(rect.top);
+        if (dist < minDist) {
+          minDist = dist;
+          idx = i;
+        }
+      });
+      return idx;
+    }
+
+    function getSlideSize() {
+      const firstSlide = slides[0];
+      return firstSlide ? firstSlide.getBoundingClientRect().height : 0;
+    }
+
+    function onScroll() {
+      const currentIdx = getCurrentSlideIndex();
+      console.log('Current Slide Index:', currentIdx);
+      if (currentIdx !== lastActive) {
+        // Animate background color for the new slide
+        const prevColor = bgColors[lastActive];
+        const nextSlide = slides[currentIdx];
+        animateBgColor(nextSlide, prevColor, bgColors[currentIdx]);
+        lastActive = currentIdx;
+      }
+    }
+
+    const paginationContainer = document.querySelector('.pagination-container');
+    paginationContainer.addEventListener('scroll', onScroll);
+    //when windown size changes, recalculate the slide size
+    window.addEventListener('resize', () => {
+      currentSlideHeight = getSlideSize();
+    });
+    window.addEventListener('load', () => {
+      // Animate the first slide on load
+      animateBgColor(slides[0], 'white', bgColors[0]);
+      lastActive = 0;
+      // Optionally, trigger scroll logic if needed
+      // onScroll();
+    });
+  </script>
+</html>
